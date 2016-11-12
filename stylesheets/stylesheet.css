@@ -388,6 +388,10 @@ Small Device Styles
     max-width: 480px;
   }
 
+  .topBar {
+    text-align: center;
+  }
+
   #project_title {
   font-size: 32px;
   }
