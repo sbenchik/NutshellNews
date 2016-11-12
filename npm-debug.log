@@ -1,0 +1,1474 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'socket.io' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'socket.io', null ]
+5 verbose cache add name=undefined spec="socket.io" args=["socket.io",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'socket.io',
+6 verbose parsed url   path: 'socket.io',
+6 verbose parsed url   href: 'socket.io' }
+7 silly lockFile 71475bfd-socket-io socket.io
+8 verbose lock socket.io /home/JFitton/.npm/71475bfd-socket-io.lock
+9 silly lockFile 71475bfd-socket-io socket.io
+10 silly lockFile 71475bfd-socket-io socket.io
+11 verbose addNamed [ 'socket.io', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c03de861-socket-io socket.io@
+14 verbose lock socket.io@ /home/JFitton/.npm/c03de861-socket-io.lock
+15 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+16 verbose url raw socket.io
+17 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+18 verbose url resolved https://registry.npmjs.org/socket.io
+19 info trying registry request attempt 1 at 12:40:01
+20 verbose etag "8A2S2IH6CA52ETGA7Z3CAYT60"
+21 http GET https://registry.npmjs.org/socket.io
+22 http 304 https://registry.npmjs.org/socket.io
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:57 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     etag: '"8A2S2IH6CA52ETGA7Z3CAYT60"',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-ord1738-ORD',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1478972397.851400,VS0,VE131',
+23 silly registry.get     vary: 'Accept-Encoding' } ]
+24 verbose etag socket.io from cache
+25 silly addNameRange number 2 { name: 'socket.io', range: '*', hasData: true }
+26 silly addNameRange versions [ 'socket.io',
+26 silly addNameRange   [ '0.3.8',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.3',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.6.3',
+26 silly addNameRange     '0.6.4',
+26 silly addNameRange     '0.6.5',
+26 silly addNameRange     '0.6.6',
+26 silly addNameRange     '0.6.7',
+26 silly addNameRange     '0.6.8',
+26 silly addNameRange     '0.6.9',
+26 silly addNameRange     '0.6.10',
+26 silly addNameRange     '0.6.11',
+26 silly addNameRange     '0.6.12',
+26 silly addNameRange     '0.6.14',
+26 silly addNameRange     '0.6.15',
+26 silly addNameRange     '0.6.16',
+26 silly addNameRange     '0.6.17',
+26 silly addNameRange     '0.6.18',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.7.2',
+26 silly addNameRange     '0.7.3',
+26 silly addNameRange     '0.7.4',
+26 silly addNameRange     '0.7.5',
+26 silly addNameRange     '0.7.6',
+26 silly addNameRange     '0.7.7',
+26 silly addNameRange     '0.7.8',
+26 silly addNameRange     '0.7.9',
+26 silly addNameRange     '0.7.10',
+26 silly addNameRange     '0.7.11',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.8.5',
+26 silly addNameRange     '0.8.6',
+26 silly addNameRange     '0.8.7',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.1-1',
+26 silly addNameRange     '0.9.2',
+26 silly addNameRange     '0.9.3',
+26 silly addNameRange     '0.9.4',
+26 silly addNameRange     '0.9.5',
+26 silly addNameRange     '0.9.6',
+26 silly addNameRange     '0.9.7',
+26 silly addNameRange     '0.9.8',
+26 silly addNameRange     '0.9.9',
+26 silly addNameRange     '0.9.10',
+26 silly addNameRange     '0.9.11',
+26 silly addNameRange     '0.9.12',
+26 silly addNameRange     '0.9.13',
+26 silly addNameRange     '0.9.14',
+26 silly addNameRange     '0.9.15',
+26 silly addNameRange     '0.9.16',
+26 silly addNameRange     '1.0.0-pre',
+26 silly addNameRange     '1.0.0-pre2',
+26 silly addNameRange     '1.0.0-pre3',
+26 silly addNameRange     '1.0.0-pre4',
+26 silly addNameRange     '1.0.0-pre5',
+26 silly addNameRange     '0.9.17',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '1.0.2',
+26 silly addNameRange     '1.0.3',
+26 silly addNameRange     '1.0.4',
+26 silly addNameRange     '1.0.5',
+26 silly addNameRange     '1.0.6',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.2.1',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.3.1',
+26 silly addNameRange     '1.3.2',
+26 silly addNameRange     '1.3.3',
+26 silly addNameRange     '1.3.4',
+26 silly addNameRange     '1.3.5',
+26 silly addNameRange     '1.3.6',
+26 silly addNameRange     '1.3.7',
+26 silly addNameRange     '1.4.0',
+26 silly addNameRange     '1.4.1',
+26 silly addNameRange     '1.4.2',
+26 silly addNameRange     '1.4.3',
+26 silly addNameRange     '1.4.4',
+26 silly addNameRange     '1.4.5',
+26 silly addNameRange     '1.4.6',
+26 silly addNameRange     '1.4.7',
+26 silly addNameRange     '1.4.8',
+26 silly addNameRange     '1.5.0',
+26 silly addNameRange     '1.5.1' ] ]
+27 verbose addNamed [ 'socket.io', '1.5.1' ]
+28 verbose addNamed [ '1.5.1', '1.5.1' ]
+29 silly lockFile 528b6503-socket-io-1-5-1 socket.io@1.5.1
+30 verbose lock socket.io@1.5.1 /home/JFitton/.npm/528b6503-socket-io-1-5-1.lock
+31 silly lockFile 528b6503-socket-io-1-5-1 socket.io@1.5.1
+32 silly lockFile 528b6503-socket-io-1-5-1 socket.io@1.5.1
+33 silly lockFile c03de861-socket-io socket.io@
+34 silly lockFile c03de861-socket-io socket.io@
+35 silly resolved [ { name: 'socket.io',
+35 silly resolved     version: '1.5.1',
+35 silly resolved     description: 'node.js realtime framework server',
+35 silly resolved     keywords:
+35 silly resolved      [ 'realtime',
+35 silly resolved        'framework',
+35 silly resolved        'websocket',
+35 silly resolved        'tcp',
+35 silly resolved        'events',
+35 silly resolved        'socket',
+35 silly resolved        'io' ],
+35 silly resolved     main: './lib/index',
+35 silly resolved     files: [ 'lib/' ],
+35 silly resolved     license: 'MIT',
+35 silly resolved     repository: { type: 'git', url: 'git://github.com/socketio/socket.io' },
+35 silly resolved     scripts: { test: 'gulp test' },
+35 silly resolved     dependencies:
+35 silly resolved      { 'engine.io': '1.7.2',
+35 silly resolved        'socket.io-parser': '2.3.1',
+35 silly resolved        'socket.io-client': '1.5.1',
+35 silly resolved        'socket.io-adapter': '0.4.0',
+35 silly resolved        'has-binary': '0.1.7',
+35 silly resolved        debug: '2.2.0' },
+35 silly resolved     devDependencies:
+35 silly resolved      { 'babel-preset-es2015': '6.3.13',
+35 silly resolved        del: '2.2.0',
+35 silly resolved        'expect.js': '0.3.1',
+35 silly resolved        gulp: '3.9.0',
+35 silly resolved        'gulp-babel': '6.1.1',
+35 silly resolved        'gulp-istanbul': '0.10.3',
+35 silly resolved        'gulp-mocha': '2.2.0',
+35 silly resolved        'gulp-task-listing': '1.0.1',
+35 silly resolved        istanbul: '0.4.1',
+35 silly resolved        mocha: '2.3.4',
+35 silly resolved        superagent: '1.6.1',
+35 silly resolved        supertest: '1.1.0' },
+35 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+35 silly resolved     readme: '\n# socket.io\n\n[![Build Status](https://secure.travis-ci.org/socketio/socket.io.svg?branch=master)](https://travis-ci.org/socketio/socket.io)\n[![Dependency Status](https://david-dm.org/socketio/socket.io.svg)](https://david-dm.org/socketio/socket.io)\n[![devDependency Status](https://david-dm.org/socketio/socket.io/dev-status.svg)](https://david-dm.org/socketio/socket.io#info=devDependencies)\n[![NPM version](https://badge.fury.io/js/socket.io.svg)](https://www.npmjs.com/package/socket.io)\n![Downloads](https://img.shields.io/npm/dm/socket.io.svg?style=flat)\n[![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)\n\n## How to use\n\nThe following example attaches socket.io to a plain Node.JS\nHTTP server listening on port `3000`.\n\n```js\nvar server = require(\'http\').createServer();\nvar io = require(\'socket.io\')(server);\nio.on(\'connection\', function(client){\n  client.on(\'event\', function(data){});\n  client.on(\'disconnect\', function(){});\n});\nserver.listen(3000);\n```\n\n### Standalone\n\n```js\nvar io = require(\'socket.io\')();\nio.on(\'connection\', function(client){});\nio.listen(3000);\n```\n\n### In conjunction with Express\n\nStarting with **3.0**, express applications have become request handler\nfunctions that you pass to `http` or `http` `Server` instances. You need\nto pass the `Server` to `socket.io`, and not the express application\nfunction.\n\n```js\nvar app = require(\'express\')();\nvar server = require(\'http\').createServer(app);\nvar io = require(\'socket.io\')(server);\nio.on(\'connection\', function(){ /* … */ });\nserver.listen(3000);\n```\n\n### In conjunction with Koa\n\nLike Express.JS, Koa works by exposing an application as a request\nhandler function, but only by calling the `callback` method.\n\n```js\nvar app = require(\'koa\')();\nvar server = require(\'http\').createServer(app.callback());\nvar io = require(\'socket.io\')(server);\nio.on(\'connection\', function(){ /* … */ });\nserver.listen(3000);\n```\n\n## API\n\n### Server\n\n  Exposed by `require(\'socket.io\')`.\n\n### Server()\n\n  Creates a new `Server`. Works with and without `new`:\n\n  ```js\n  var io = require(\'socket.io\')();\n  // or\n  var Server = require(\'socket.io\');\n  var io = new Server();\n  ```\n\n### Server(opts:Object)\n\n  Optionally, the first or second argument (see below) of the `Server`\n  constructor can be an options object.\n\n  The following options are supported:\n\n  - `serveClient` sets the value for Server#serveClient()\n  - `path` sets the value for Server#path()\n\n  The same options passed to socket.io are always passed to\n  the `engine.io` `Server` that gets created. See engine.io\n  [options](https://github.com/socketio/engine.io#methods-1)\n  as reference.\n\n### Server(srv:http#Server, opts:Object)\n\n  Creates a new `Server` and attaches it to the given `srv`. Optionally\n  `opts` can be passed.\n\n### Server(port:Number, opts:Object)\n\n  Binds socket.io to a new `http.Server` that listens on `port`.\n\n### Server#serveClient(v:Boolean):Server\n\n  If `v` is `true` the attached server (see `Server#attach`) will serve\n  the client files. Defaults to `true`.\n\n  This method has no effect after `attach` is called.\n\n  ```js\n  // pass a server and the `serveClient` option\n  var io = require(\'socket.io\')(http, { serveClient: false });\n\n  // or pass no server and then you can call the method\n  var io = require(\'socket.io\')();\n  io.serveClient(false);\n  io.attach(http);\n  ```\n\n  If no arguments are supplied this method returns the current value.\n\n### Server#path(v:String):Server\n\n  Sets the path `v` under which `engine.io` and the static files will be\n  served. Defaults to `/socket.io`.\n\n  If no arguments are supplied this method returns the current value.\n\n### Server#adapter(v:Adapter):Server\n\n  Sets the adapter `v`. Defaults to an instance of the `Adapter` that\n  ships with socket.io which is memory based. See\n  [socket.io-adapter](https://github.com/socketio/socket.io-adapter).\n\n  If no arguments are supplied this method returns the current value.\n\n### Server#origins(v:String):Server\n\n  Sets the allowed origins `v`. Defaults to any origins being allowed.\n\n  If no arguments are supplied this method returns the current value.\n\n### Server#origins(v:Function):Server\n\n  Sets the allowed origins as dynamic function. Function takes two arguments `origin:String` and `callback(error, success)`, where `success` is a boolean value indicating whether origin is allowed or not.\n\n  __Potential drawbacks__:\n  * in some situations, when it is not possible to determine `origin` it may have value of `*`\n  * As this function will be executed for every request, it is advised to make this function work as fast as possible\n  * If `socket.io` is used together with `Express`, the CORS headers will be affected only for `socket.io` requests. For Express can use [cors](https://github.com/expressjs/cors)\n\n\n### Server#sockets:Namespace\n\n  The default (`/`) namespace.\n\n### Server#attach(srv:http#Server, opts:Object):Server\n\n  Attaches the `Server` to an engine.io instance on `srv` with the\n  supplied `opts` (optionally).\n\n### Server#attach(port:Number, opts:Object):Server\n\n  Attaches the `Server` to an engine.io instance that is bound to `port`\n  with the given `opts` (optionally).\n\n### Server#listen\n\n  Synonym of `Server#attach`.\n\n### Server#bind(srv:engine#Server):Server\n\n  Advanced use only. Binds the server to a specific engine.io `Server`\n  (or compatible API) instance.\n\n### Server#onconnection(socket:engine#Socket):Server\n\n  Advanced use only. Creates a new `socket.io` client from the incoming\n  engine.io (or compatible API) `socket`.\n\n### Server#of(nsp:String):Namespace\n\n  Initializes and retrieves the given `Namespace` by its pathname\n  identifier `nsp`.\n\n  If the namespace was already initialized it returns it right away.\n\n### Server#emit\n\n  Emits an event to all connected clients. The following two are\n  equivalent:\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.sockets.emit(\'an event sent to all connected clients\');\n  io.emit(\'an event sent to all connected clients\');\n  ```\n\n  For other available methods, see `Namespace` below.\n\n### Server#close\n\n  Closes socket.io server\n\n  ```js\n  var Server = require(\'socket.io\');\n  var PORT   = 3030;\n  var server = require(\'http\').Server();\n\n  var io = Server(PORT);\n\n  io.close(); // Close current server\n\n  server.listen(PORT); // PORT is free to use\n\n  io = Server(server);\n  ```\n\n### Server#use\n\n  See `Namespace#use` below.\n\n### Namespace\n\n  Represents a pool of sockets connected under a given scope identified\n  by a pathname (eg: `/chat`).\n\n  By default the client always connects to `/`.\n\n#### Events\n\n  - `connection` / `connect`. Fired upon a connection.\n\n    Parameters:\n    - `Socket` the incoming socket.\n\n### Namespace#name:String\n\n  The namespace identifier property.\n\n### Namespace#connected:Object<Socket>\n\n  Hash of `Socket` objects that are connected to this namespace indexed\n  by `id`.\n\n### Namespace#clients(fn:Function)\n\n  Gets a list of client IDs connected to this namespace (across all nodes if applicable).\n\n  An example to get all clients in a namespace:\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.of(\'/chat\').clients(function(error, clients){\n    if (error) throw error;\n    console.log(clients); // => [PZDoMHjiu8PYfRiKAAAF, Anw2LatarvGVVXEIAAAD]\n  });\n  ```\n\n  An example to get all clients in namespace\'s room:\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.of(\'/chat\').in(\'general\').clients(function(error, clients){\n    if (error) throw error;\n    console.log(clients); // => [Anw2LatarvGVVXEIAAAD]\n  });\n  ```\n\n  As with broadcasting, the default is all clients from the default namespace (\'/\'):\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.clients(function(error, clients){\n    if (error) throw error;\n    console.log(clients); // => [6em3d4TJP8Et9EMNAAAA, G5p55dHhGgUnLUctAAAB]\n  });\n  ```\n\n### Namespace#use(fn:Function):Namespace\n\n  Registers a middleware, which is a function that gets executed for\n  every incoming `Socket` and receives as parameter the socket and a\n  function to optionally defer execution to the next registered\n  middleware.\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.use(function(socket, next){\n    if (socket.request.headers.cookie) return next();\n    next(new Error(\'Authentication error\'));\n  });\n  ```\n\n  Errors passed to middleware callbacks are sent as special `error`\n  packets to clients.\n\n### Socket\n\n  A `Socket` is the fundamental class for interacting with browser\n  clients. A `Socket` belongs to a certain `Namespace` (by default `/`)\n  and uses an underlying `Client` to communicate.\n  \n  It should be noted the `Socket` doesn\'t relate directly to the actual\n  underlying TCP/IP `socket` and it is only the name of the class.\n\n### Socket#rooms:Object\n\n  A hash of strings identifying the rooms this client is in, indexed by\n  room name.\n\n### Socket#client:Client\n\n  A reference to the underlying `Client` object.\n\n### Socket#conn:Socket\n\n  A reference to the underlying `Client` transport connection (engine.io\n  `Socket` object). This allows access to the IO transport layer, which\n  still (mostly) abstracts the actual TCP/IP socket.\n\n### Socket#request:Request\n\n  A getter proxy that returns the reference to the `request` that\n  originated the underlying engine.io `Client`. Useful for accessing\n  request headers such as `Cookie` or `User-Agent`.\n\n### Socket#id:String\n\n  A unique identifier for the session, that comes from the\n  underlying `Client`.\n\n### Socket#emit(name:String[, …]):Socket\n\n  Emits an event identified by the string `name` to the client.\n  Any other parameters can be included.\n\n  All datastructures are supported, including `Buffer`. JavaScript\n  functions can\'t be serialized/deserialized.\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.on(\'connection\', function(client){\n    client.emit(\'an event\', { some: \'data\' });\n  });\n  ```\n\n### Socket#join(name:String[, fn:Function]):Socket\n\n  Adds the client to the `room`, and fires optionally a callback `fn`\n  with `err` signature (if any).\n\n  The client is automatically a member of a room identified with its\n  session id (see `Socket#id`).\n\n  The mechanics of joining  rooms are handled by the `Adapter`\n  that has been configured (see `Server#adapter` above), defaulting to\n  [socket.io-adapter](https://github.com/socketio/socket.io-adapter).\n\n### Socket#leave(name:String[, fn:Function]):Socket\n\n  Removes the client from `room`, and fires optionally a callback `fn`\n  with `err` signature (if any).\n\n  **Rooms are left automatically upon disconnection**.\n\n  The mechanics of leaving rooms are handled by the `Adapter`\n  that has been configured (see `Server#adapter` above), defaulting to\n  [socket.io-adapter](https://github.com/socketio/socket.io-adapter).\n\n### Socket#to(room:String):Socket\n\n  Sets a modifier for a subsequent event emission that the event will\n  only be _broadcasted_ to clients that have joined the given `room`.\n\n  To emit to multiple rooms, you can call `to` several times.\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.on(\'connection\', function(client){\n    client.to(\'others\').emit(\'an event\', { some: \'data\' });\n  });\n  ```\n\n### Socket#in(room:String):Socket\n\n  Same as `Socket#to`\n\n### Socket#compress(v:Boolean):Socket\n\n  Sets a modifier for a subsequent event emission that the event data will\n  only be _compressed_ if the value is `true`. Defaults to `true` when you don\'t call the method.\n\n  ```js\n  var io = require(\'socket.io\')();\n  io.on(\'connection\', function(client){\n    client.compress(false).emit(\'an event\', { some: \'data\' });\n  });\n  ```\n  \n### Socket#disconnect(close:Boolean):Socket\n    \n  Disconnects this client. If value of close is `true`, closes the underlying connection. \n  Otherwise, it just disconnects the namespace.\n\n#### Events\n\n- `disconnect`\n    - Fired upon disconnection.\n    - **Arguments**\n      - `String`: the reason of the disconnection (either client or server-side)\n- `error`\n    - Fired when an error occurs.\n    - **Arguments**\n      - `Object`: error data\n- `disconnecting`\n    - Fired when the client is going to be disconnected (but hasn\'t left its `rooms` yet).\n    - **Arguments**\n      - `String`: the reason of the disconnection (either client or server-side)\n\nThese are reserved events (along with `connect`, `newListener` and `removeListener`) which cannot be used as event names.\n\n\n### Client\n\n  The `Client` class represents an incoming transport (engine.io)\n  connection. A `Client` can be associated with many multiplexed `Socket`\n  that belong to different `Namespace`s.\n\n### Client#conn\n\n  A reference to the underlying `engine.io` `Socket` connection.\n\n### Client#request\n\n  A getter proxy that returns the reference to the `request` that\n  originated the engine.io connection. Useful for accessing\n  request headers such as `Cookie` or `User-Agent`.\n\n## Debug / logging\n\nSocket.IO is powered by [debug](https://github.com/visionmedia/debug).\nIn order to see all the debug output, run your app with the environment variable\n`DEBUG` including the desired scope.\n\nTo see the output from all of Socket.IO\'s debugging scopes you can use:\n\n```\nDEBUG=socket.io* node myapp\n```\n\n## Testing\n\n```\nnpm test\n```\nThis runs the `gulp` task `test`. By default the test will be run with the source code in `lib` directory.\n\nSet the environmental variable `TEST_VERSION` to `compat` to test the transpiled es5-compat version of the code.\n\nThe `gulp` task `test` will always transpile the source code into es5 and export to `dist` first before running the test.\n\n## License\n\n[MIT](LICENSE)\n',
+35 silly resolved     readmeFilename: 'Readme.md',
+35 silly resolved     bugs: { url: 'https://github.com/socketio/socket.io/issues' },
+35 silly resolved     _id: 'socket.io@1.5.1',
+35 silly resolved     _from: 'socket.io@' } ]
+36 info install socket.io@1.5.1 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews
+37 info installOne socket.io@1.5.1
+38 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io unbuild
+39 verbose tar unpack /home/JFitton/.npm/socket.io/1.5.1/package.tgz
+40 silly lockFile 6f78eb6b-shellNews-node-modules-socket-io tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+41 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io /home/JFitton/.npm/6f78eb6b-shellNews-node-modules-socket-io.lock
+42 silly lockFile 5a6642c6--npm-socket-io-1-5-1-package-tgz tar:///home/JFitton/.npm/socket.io/1.5.1/package.tgz
+43 verbose lock tar:///home/JFitton/.npm/socket.io/1.5.1/package.tgz /home/JFitton/.npm/5a6642c6--npm-socket-io-1-5-1-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry Readme.md
+47 silly gunzTarPerm extractEntry lib/client.js
+48 silly gunzTarPerm extractEntry lib/index.js
+49 silly gunzTarPerm extractEntry lib/namespace.js
+50 silly gunzTarPerm extractEntry lib/socket.js
+51 silly lockFile 6f78eb6b-shellNews-node-modules-socket-io tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+52 silly lockFile 6f78eb6b-shellNews-node-modules-socket-io tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+53 silly lockFile 5a6642c6--npm-socket-io-1-5-1-package-tgz tar:///home/JFitton/.npm/socket.io/1.5.1/package.tgz
+54 silly lockFile 5a6642c6--npm-socket-io-1-5-1-package-tgz tar:///home/JFitton/.npm/socket.io/1.5.1/package.tgz
+55 info preinstall socket.io@1.5.1
+56 verbose readDependencies using package.json deps
+57 verbose readDependencies using package.json deps
+58 verbose cache add [ 'socket.io-parser@2.3.1', null ]
+59 verbose cache add name=undefined spec="socket.io-parser@2.3.1" args=["socket.io-parser@2.3.1",null]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'socket.io-parser@2.3.1',
+60 verbose parsed url   path: 'socket.io-parser@2.3.1',
+60 verbose parsed url   href: 'socket.io-parser@2.3.1' }
+61 verbose cache add name="socket.io-parser" spec="2.3.1" args=["socket.io-parser","2.3.1"]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '2.3.1',
+62 verbose parsed url   path: '2.3.1',
+62 verbose parsed url   href: '2.3.1' }
+63 verbose addNamed [ 'socket.io-parser', '2.3.1' ]
+64 verbose addNamed [ '2.3.1', '2.3.1' ]
+65 silly lockFile 12ccc03d-socket-io-parser-2-3-1 socket.io-parser@2.3.1
+66 verbose lock socket.io-parser@2.3.1 /home/JFitton/.npm/12ccc03d-socket-io-parser-2-3-1.lock
+67 verbose cache add [ 'socket.io-client@1.5.1', null ]
+68 verbose cache add name=undefined spec="socket.io-client@1.5.1" args=["socket.io-client@1.5.1",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'socket.io-client@1.5.1',
+69 verbose parsed url   path: 'socket.io-client@1.5.1',
+69 verbose parsed url   href: 'socket.io-client@1.5.1' }
+70 verbose cache add name="socket.io-client" spec="1.5.1" args=["socket.io-client","1.5.1"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '1.5.1',
+71 verbose parsed url   path: '1.5.1',
+71 verbose parsed url   href: '1.5.1' }
+72 verbose addNamed [ 'socket.io-client', '1.5.1' ]
+73 verbose addNamed [ '1.5.1', '1.5.1' ]
+74 silly lockFile c4c3a361-socket-io-client-1-5-1 socket.io-client@1.5.1
+75 verbose lock socket.io-client@1.5.1 /home/JFitton/.npm/c4c3a361-socket-io-client-1-5-1.lock
+76 verbose cache add [ 'socket.io-adapter@0.4.0', null ]
+77 verbose cache add name=undefined spec="socket.io-adapter@0.4.0" args=["socket.io-adapter@0.4.0",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'socket.io-adapter@0.4.0',
+78 verbose parsed url   path: 'socket.io-adapter@0.4.0',
+78 verbose parsed url   href: 'socket.io-adapter@0.4.0' }
+79 verbose cache add name="socket.io-adapter" spec="0.4.0" args=["socket.io-adapter","0.4.0"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '0.4.0',
+80 verbose parsed url   path: '0.4.0',
+80 verbose parsed url   href: '0.4.0' }
+81 verbose addNamed [ 'socket.io-adapter', '0.4.0' ]
+82 verbose addNamed [ '0.4.0', '0.4.0' ]
+83 silly lockFile 83d16962-socket-io-adapter-0-4-0 socket.io-adapter@0.4.0
+84 verbose lock socket.io-adapter@0.4.0 /home/JFitton/.npm/83d16962-socket-io-adapter-0-4-0.lock
+85 verbose cache add [ 'has-binary@0.1.7', null ]
+86 verbose cache add name=undefined spec="has-binary@0.1.7" args=["has-binary@0.1.7",null]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: 'has-binary@0.1.7',
+87 verbose parsed url   path: 'has-binary@0.1.7',
+87 verbose parsed url   href: 'has-binary@0.1.7' }
+88 verbose cache add name="has-binary" spec="0.1.7" args=["has-binary","0.1.7"]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '0.1.7',
+89 verbose parsed url   path: '0.1.7',
+89 verbose parsed url   href: '0.1.7' }
+90 verbose addNamed [ 'has-binary', '0.1.7' ]
+91 verbose addNamed [ '0.1.7', '0.1.7' ]
+92 silly lockFile 44a3d76c-has-binary-0-1-7 has-binary@0.1.7
+93 verbose lock has-binary@0.1.7 /home/JFitton/.npm/44a3d76c-has-binary-0-1-7.lock
+94 verbose cache add [ 'debug@2.2.0', null ]
+95 verbose cache add name=undefined spec="debug@2.2.0" args=["debug@2.2.0",null]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: 'debug@2.2.0',
+96 verbose parsed url   path: 'debug@2.2.0',
+96 verbose parsed url   href: 'debug@2.2.0' }
+97 verbose cache add name="debug" spec="2.2.0" args=["debug","2.2.0"]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: '2.2.0',
+98 verbose parsed url   path: '2.2.0',
+98 verbose parsed url   href: '2.2.0' }
+99 verbose addNamed [ 'debug', '2.2.0' ]
+100 verbose addNamed [ '2.2.0', '2.2.0' ]
+101 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+102 verbose lock debug@2.2.0 /home/JFitton/.npm/82f99b48-debug-2-2-0.lock
+103 verbose cache add [ 'engine.io@1.7.2', null ]
+104 verbose cache add name=undefined spec="engine.io@1.7.2" args=["engine.io@1.7.2",null]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: 'engine.io@1.7.2',
+105 verbose parsed url   path: 'engine.io@1.7.2',
+105 verbose parsed url   href: 'engine.io@1.7.2' }
+106 verbose cache add name="engine.io" spec="1.7.2" args=["engine.io","1.7.2"]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: '1.7.2',
+107 verbose parsed url   path: '1.7.2',
+107 verbose parsed url   href: '1.7.2' }
+108 verbose addNamed [ 'engine.io', '1.7.2' ]
+109 verbose addNamed [ '1.7.2', '1.7.2' ]
+110 silly lockFile da54402d-engine-io-1-7-2 engine.io@1.7.2
+111 verbose lock engine.io@1.7.2 /home/JFitton/.npm/da54402d-engine-io-1-7-2.lock
+112 verbose url raw socket.io-parser/2.3.1
+113 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-parser/2.3.1' ]
+114 verbose url resolved https://registry.npmjs.org/socket.io-parser/2.3.1
+115 info trying registry request attempt 1 at 12:40:01
+116 verbose etag "BTB3I6JO1888TR24WCBEJQ3V6"
+117 http GET https://registry.npmjs.org/socket.io-parser/2.3.1
+118 verbose url raw socket.io-client/1.5.1
+119 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/1.5.1' ]
+120 verbose url resolved https://registry.npmjs.org/socket.io-client/1.5.1
+121 info trying registry request attempt 1 at 12:40:01
+122 verbose etag "7C7NX1LT7T06ZG5RZKH9BH7N6"
+123 http GET https://registry.npmjs.org/socket.io-client/1.5.1
+124 verbose url raw has-binary/0.1.7
+125 verbose url resolving [ 'https://registry.npmjs.org/', './has-binary/0.1.7' ]
+126 verbose url resolved https://registry.npmjs.org/has-binary/0.1.7
+127 info trying registry request attempt 1 at 12:40:01
+128 verbose etag "54IA64EVLMM2KU65063PQEFYU"
+129 http GET https://registry.npmjs.org/has-binary/0.1.7
+130 verbose url raw socket.io-adapter/0.4.0
+131 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-adapter/0.4.0' ]
+132 verbose url resolved https://registry.npmjs.org/socket.io-adapter/0.4.0
+133 info trying registry request attempt 1 at 12:40:01
+134 verbose etag "2B5CVN1K00IJZGTNZ7Y49B27S"
+135 http GET https://registry.npmjs.org/socket.io-adapter/0.4.0
+136 verbose url raw debug/2.2.0
+137 verbose url resolving [ 'https://registry.npmjs.org/', './debug/2.2.0' ]
+138 verbose url resolved https://registry.npmjs.org/debug/2.2.0
+139 info trying registry request attempt 1 at 12:40:01
+140 verbose etag "DCAWJ3SIIZ82G1F4ZEJP6XNS6"
+141 http GET https://registry.npmjs.org/debug/2.2.0
+142 verbose url raw engine.io/1.7.2
+143 verbose url resolving [ 'https://registry.npmjs.org/', './engine.io/1.7.2' ]
+144 verbose url resolved https://registry.npmjs.org/engine.io/1.7.2
+145 info trying registry request attempt 1 at 12:40:02
+146 verbose etag "UNQYZAAT67K1FE6CJE135BDR"
+147 http GET https://registry.npmjs.org/engine.io/1.7.2
+148 http 304 https://registry.npmjs.org/has-binary/0.1.7
+149 silly registry.get cb [ 304,
+149 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:58 GMT',
+149 silly registry.get     via: '1.1 varnish',
+149 silly registry.get     'cache-control': 'max-age=300',
+149 silly registry.get     etag: '"54IA64EVLMM2KU65063PQEFYU"',
+149 silly registry.get     age: '0',
+149 silly registry.get     connection: 'keep-alive',
+149 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+149 silly registry.get     'x-cache': 'MISS',
+149 silly registry.get     'x-cache-hits': '0',
+149 silly registry.get     'x-timer': 'S1478972398.635200,VS0,VE34',
+149 silly registry.get     vary: 'Accept' } ]
+150 verbose etag has-binary/0.1.7 from cache
+151 silly lockFile 44a3d76c-has-binary-0-1-7 has-binary@0.1.7
+152 silly lockFile 44a3d76c-has-binary-0-1-7 has-binary@0.1.7
+153 http 304 https://registry.npmjs.org/socket.io-parser/2.3.1
+154 silly registry.get cb [ 304,
+154 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:58 GMT',
+154 silly registry.get     via: '1.1 varnish',
+154 silly registry.get     'cache-control': 'max-age=300',
+154 silly registry.get     etag: '"BTB3I6JO1888TR24WCBEJQ3V6"',
+154 silly registry.get     age: '0',
+154 silly registry.get     connection: 'keep-alive',
+154 silly registry.get     'x-served-by': 'cache-ord1720-ORD',
+154 silly registry.get     'x-cache': 'MISS',
+154 silly registry.get     'x-cache-hits': '0',
+154 silly registry.get     'x-timer': 'S1478972398.601039,VS0,VE126',
+154 silly registry.get     vary: 'Accept' } ]
+155 verbose etag socket.io-parser/2.3.1 from cache
+156 silly lockFile 12ccc03d-socket-io-parser-2-3-1 socket.io-parser@2.3.1
+157 silly lockFile 12ccc03d-socket-io-parser-2-3-1 socket.io-parser@2.3.1
+158 http 304 https://registry.npmjs.org/socket.io-client/1.5.1
+159 silly registry.get cb [ 304,
+159 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:58 GMT',
+159 silly registry.get     via: '1.1 varnish',
+159 silly registry.get     'cache-control': 'max-age=300',
+159 silly registry.get     etag: '"7C7NX1LT7T06ZG5RZKH9BH7N6"',
+159 silly registry.get     age: '0',
+159 silly registry.get     connection: 'keep-alive',
+159 silly registry.get     'x-served-by': 'cache-ord1737-ORD',
+159 silly registry.get     'x-cache': 'MISS',
+159 silly registry.get     'x-cache-hits': '0',
+159 silly registry.get     'x-timer': 'S1478972398.629215,VS0,VE127',
+159 silly registry.get     vary: 'Accept' } ]
+160 verbose etag socket.io-client/1.5.1 from cache
+161 silly lockFile c4c3a361-socket-io-client-1-5-1 socket.io-client@1.5.1
+162 silly lockFile c4c3a361-socket-io-client-1-5-1 socket.io-client@1.5.1
+163 http 304 https://registry.npmjs.org/socket.io-adapter/0.4.0
+164 silly registry.get cb [ 304,
+164 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:58 GMT',
+164 silly registry.get     via: '1.1 varnish',
+164 silly registry.get     'cache-control': 'max-age=300',
+164 silly registry.get     etag: '"2B5CVN1K00IJZGTNZ7Y49B27S"',
+164 silly registry.get     age: '0',
+164 silly registry.get     connection: 'keep-alive',
+164 silly registry.get     'x-served-by': 'cache-ord1745-ORD',
+164 silly registry.get     'x-cache': 'HIT',
+164 silly registry.get     'x-cache-hits': '1',
+164 silly registry.get     'x-timer': 'S1478972398.635196,VS0,VE139',
+164 silly registry.get     vary: 'Accept' } ]
+165 verbose etag socket.io-adapter/0.4.0 from cache
+166 silly lockFile 83d16962-socket-io-adapter-0-4-0 socket.io-adapter@0.4.0
+167 silly lockFile 83d16962-socket-io-adapter-0-4-0 socket.io-adapter@0.4.0
+168 http 304 https://registry.npmjs.org/debug/2.2.0
+169 silly registry.get cb [ 304,
+169 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:58 GMT',
+169 silly registry.get     via: '1.1 varnish',
+169 silly registry.get     'cache-control': 'max-age=300',
+169 silly registry.get     etag: '"DCAWJ3SIIZ82G1F4ZEJP6XNS6"',
+169 silly registry.get     age: '0',
+169 silly registry.get     connection: 'keep-alive',
+169 silly registry.get     'x-served-by': 'cache-ord1746-ORD',
+169 silly registry.get     'x-cache': 'HIT',
+169 silly registry.get     'x-cache-hits': '1',
+169 silly registry.get     'x-timer': 'S1478972398.671522,VS0,VE128',
+169 silly registry.get     vary: 'Accept' } ]
+170 verbose etag debug/2.2.0 from cache
+171 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+172 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+173 http 304 https://registry.npmjs.org/engine.io/1.7.2
+174 silly registry.get cb [ 304,
+174 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:58 GMT',
+174 silly registry.get     via: '1.1 varnish',
+174 silly registry.get     'cache-control': 'max-age=300',
+174 silly registry.get     etag: '"UNQYZAAT67K1FE6CJE135BDR"',
+174 silly registry.get     age: '0',
+174 silly registry.get     connection: 'keep-alive',
+174 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+174 silly registry.get     'x-cache': 'MISS',
+174 silly registry.get     'x-cache-hits': '0',
+174 silly registry.get     'x-timer': 'S1478972398.698048,VS0,VE128',
+174 silly registry.get     vary: 'Accept' } ]
+175 verbose etag engine.io/1.7.2 from cache
+176 silly lockFile da54402d-engine-io-1-7-2 engine.io@1.7.2
+177 silly lockFile da54402d-engine-io-1-7-2 engine.io@1.7.2
+178 silly resolved [ { name: 'has-binary',
+178 silly resolved     version: '0.1.7',
+178 silly resolved     description: 'A function that takes anything in javascript and returns true if its argument contains binary data.',
+178 silly resolved     dependencies: { isarray: '0.0.1' },
+178 silly resolved     devDependencies: { 'better-assert': '1.0.0', mocha: '2.3.4' },
+178 silly resolved     author: { name: 'Kevin Roark' },
+178 silly resolved     license: 'MIT',
+178 silly resolved     readme: 'has-binarydata.js\n=================\n\nSimple module to test if an object contains binary data\n',
+178 silly resolved     readmeFilename: 'README.md',
+178 silly resolved     _id: 'has-binary@0.1.7',
+178 silly resolved     _from: 'has-binary@0.1.7' },
+178 silly resolved   { name: 'socket.io-parser',
+178 silly resolved     version: '2.3.1',
+178 silly resolved     description: 'socket.io protocol parser',
+178 silly resolved     repository:
+178 silly resolved      { type: 'git',
+178 silly resolved        url: 'https://github.com/Automattic/socket.io-parser.git' },
+178 silly resolved     files: [ 'binary.js', 'index.js', 'is-buffer.js' ],
+178 silly resolved     dependencies:
+178 silly resolved      { debug: '2.2.0',
+178 silly resolved        json3: '3.3.2',
+178 silly resolved        'component-emitter': '1.1.2',
+178 silly resolved        isarray: '0.0.1' },
+178 silly resolved     devDependencies:
+178 silly resolved      { benchmark: '1.0.0',
+178 silly resolved        'expect.js': '0.2.0',
+178 silly resolved        mocha: '1.16.2',
+178 silly resolved        zuul: '3.11.0',
+178 silly resolved        'zuul-ngrok': '4.0.0' },
+178 silly resolved     scripts: { test: 'make test' },
+178 silly resolved     license: 'MIT',
+178 silly resolved     readme: '\n# socket.io-parser\n\n[![Build Status](https://secure.travis-ci.org/socketio/socket.io-parser.svg?branch=master)](http://travis-ci.org/socketio/socket.io-parser)\n[![NPM version](https://badge.fury.io/js/socket.io-parser.svg)](http://badge.fury.io/js/socket.io-parser)\n\nA socket.io encoder and decoder written in JavaScript complying with version `3`\nof [socket.io-protocol](https://github.com/socketio/socket.io-protocol).\nUsed by [socket.io](https://github.com/automattic/socket.io) and\n[socket.io-client](https://github.com/automattic/socket.io-client).\n\n## Parser API\n\n  socket.io-parser is the reference implementation of socket.io-protocol. Read\n  the full API here:\n  [socket.io-protocol](https://github.com/learnboost/socket.io-protocol).\n\n## Example Usage\n\n### Encoding and decoding a packet\n\n```js\nvar parser = require(\'socket.io-parser\');\nvar encoder = new parser.Encoder();\nvar packet = {\n  type: parser.EVENT,\n  data: \'test-packet\',\n  id: 13\n};\nencoder.encode(packet, function(encodedPackets) {\n  var decoder = new parser.Decoder();\n  decoder.on(\'decoded\', function(decodedPacket) {\n    // decodedPacket.type == parser.EVENT\n    // decodedPacket.data == \'test-packet\'\n    // decodedPacket.id == 13\n  });\n\n  for (var i = 0; i < encodedPackets.length; i++) {\n    decoder.add(encodedPackets[i]);\n  }\n});\n```\n\n### Encoding and decoding a packet with binary data\n\n```js\nvar parser = require(\'socket.io-parser\');\nvar encoder = new parser.Encoder();\nvar packet = {\n  type: parser.BINARY_EVENT,\n  data: {i: new Buffer(1234), j: new Blob([new ArrayBuffer(2)])}\n  id: 15\n};\nencoder.encode(packet, function(encodedPackets) {\n  var decoder = new parser.Decoder();\n  decoder.on(\'decoded\', function(decodedPacket) {\n    // decodedPacket.type == parser.BINARY_EVENTEVENT\n    // Buffer.isBuffer(decodedPacket.data.i) == true\n    // Buffer.isBuffer(decodedPacket.data.j) == true\n    // decodedPacket.id == 15\n  });\n\n  for (var i = 0; i < encodedPackets.length; i++) {\n    decoder.add(encodedPackets[i]);\n  }\n});\n```\nSee the test suite for more examples of how socket.io-parser is used.\n\n\n## License\n\nMIT\n',
+178 silly resolved     readmeFilename: 'Readme.md',
+178 silly resolved     bugs: { url: 'https://github.com/Automattic/socket.io-parser/issues' },
+178 silly resolved     _id: 'socket.io-parser@2.3.1',
+178 silly resolved     _from: 'socket.io-parser@2.3.1' },
+178 silly resolved   { name: 'socket.io-client',
+178 silly resolved     version: '1.5.1',
+178 silly resolved     keywords: [ 'realtime', 'framework', 'websocket', 'tcp', 'events', 'client' ],
+178 silly resolved     main: './lib/index',
+178 silly resolved     files: [ 'lib/', 'socket.io.js' ],
+178 silly resolved     dependencies:
+178 silly resolved      { debug: '2.2.0',
+178 silly resolved        'engine.io-client': '1.7.2',
+178 silly resolved        'component-bind': '1.0.0',
+178 silly resolved        'component-emitter': '1.2.0',
+178 silly resolved        'object-component': '0.0.3',
+178 silly resolved        'socket.io-parser': '2.3.1',
+178 silly resolved        'has-binary': '0.1.7',
+178 silly resolved        indexof: '0.0.1',
+178 silly resolved        parseuri: '0.0.4',
+178 silly resolved        'to-array': '0.1.4',
+178 silly resolved        backo2: '1.0.2' },
+178 silly resolved     devDependencies:
+178 silly resolved      { 'babel-core': '6.4.5',
+178 silly resolved        'babel-eslint': '4.1.7',
+178 silly resolved        'babel-loader': '6.2.1',
+178 silly resolved        'babel-preset-es2015': '6.3.13',
+178 silly resolved        'base64-arraybuffer': '0.1.5',
+178 silly resolved        'concat-stream': '1.5.1',
+178 silly resolved        derequire: '2.0.3',
+178 silly resolved        'eslint-config-standard': '4.4.0',
+178 silly resolved        'eslint-plugin-standard': '1.3.1',
+178 silly resolved        'expect.js': '0.3.1',
+178 silly resolved        gulp: '3.9.0',
+178 silly resolved        'gulp-eslint': '1.1.1',
+178 silly resolved        'gulp-file': '0.2.0',
+178 silly resolved        'gulp-istanbul': '0.10.3',
+178 silly resolved        'gulp-mocha': '2.2.0',
+178 silly resolved        'gulp-task-listing': '1.0.1',
+178 silly resolved        'has-cors': '1.1.0',
+178 silly resolved        'imports-loader': '^0.6.5',
+178 silly resolved        istanbul: '0.4.2',
+178 silly resolved        mocha: '2.3.4',
+178 silly resolved        'socket.io': '1.5.1',
+178 silly resolved        'text-blob-builder': '0.0.1',
+178 silly resolved        'uglify-js': '2.6.1',
+178 silly resolved        'webpack-stream': '3.1.0',
+178 silly resolved        zuul: '3.11.0',
+178 silly resolved        'zuul-builder-webpack': '1.1.0',
+178 silly resolved        'zuul-ngrok': '4.0.0' },
+178 silly resolved     scripts: { test: 'gulp test' },
+178 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+178 silly resolved     repository:
+178 silly resolved      { type: 'git',
+178 silly resolved        url: 'https://github.com/Automattic/socket.io-client.git' },
+178 silly resolved     license: 'MIT',
+178 silly resolved     readme: '\n# socket.io-client\n\n[![Build Status](https://secure.travis-ci.org/socketio/socket.io-client.svg?branch=master)](http://travis-ci.org/socketio/socket.io-client)\n[![Dependency Status](https://david-dm.org/socketio/socket.io-client.svg)](https://david-dm.org/socketio/socket.io-client)\n[![devDependency Status](https://david-dm.org/socketio/socket.io-client/dev-status.svg)](https://david-dm.org/socketio/socket.io-client#info=devDependencies)\n![NPM version](https://badge.fury.io/js/socket.io-client.svg)\n![Downloads](http://img.shields.io/npm/dm/socket.io-client.svg?style=flat)\n[![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)\n\n## How to use\n\nA standalone build of `socket.io-client` is exposed automatically by the\nsocket.io server as `/socket.io/socket.io.js`. Alternatively you can\nserve the file `socket.io.js` found at the root of this repository.\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io(\'http://localhost\');\n  socket.on(\'connect\', function(){});\n  socket.on(\'event\', function(data){});\n  socket.on(\'disconnect\', function(){});\n</script>\n```\n\nSocket.IO is compatible with [browserify](http://browserify.org/).\n\n### Node.JS (server-side usage)\n\n  Add `socket.io-client` to your `package.json` and then:\n\n  ```js\n  var socket = require(\'socket.io-client\')(\'http://localhost\');\n  socket.on(\'connect\', function(){});\n  socket.on(\'event\', function(data){});\n  socket.on(\'disconnect\', function(){});\n  ```\n\n## API\n\n### IO(url:String, opts:Object):Socket\n\n  Exposed as the `io` namespace in the standalone build, or the result\n  of calling `require(\'socket.io-client\')`.\n\n  When called, it creates a new `Manager` for the given URL, and attempts\n  to reuse an existing `Manager` for subsequent calls, unless the\n  `multiplex` option is passed with `false`.\n\n  The rest of the options are passed to the `Manager` constructor (see below\n  for details).\n\n  A `Socket` instance is returned for the namespace specified by the\n  pathname in the URL, defaulting to `/`. For example, if the `url` is\n  `http://localhost/users`, a transport connection will be established to\n  `http://localhost` and a Socket.IO connection will be established to\n  `/users`.\n\n### IO#protocol\n\n  Socket.io protocol revision number this client works with.\n\n### IO#Socket\n\n  Reference to the `Socket` constructor.\n\n### IO#Manager\n\n  Reference to the `Manager` constructor.\n\n### IO#Emitter\n\n  Reference to the `Emitter` constructor.\n\n### Manager(url:String, opts:Object)\n\n  A `Manager` represents a connection to a given Socket.IO server. One or\n  more `Socket` instances are associated with the manager. The manager\n  can be accessed through the `io` property of each `Socket` instance.\n\n  The `opts` are also passed to `engine.io` upon initialization of the\n  underlying `Socket`.\n\n  Options:\n  - `reconnection` whether to reconnect automatically (`true`)\n  - `reconnectionAttempts` (`Infinity`) before giving up\n  - `reconnectionDelay` how long to initially wait before attempting a new\n    reconnection (`1000`). Affected by +/- `randomizationFactor`,\n    for example the default initial delay will be between 500 to 1500ms.\n  - `reconnectionDelayMax` maximum amount of time to wait between\n    reconnections (`5000`). Each attempt increases the reconnection delay by 2x\n    along with a randomization as above\n  - `randomizationFactor` (`0.5`), 0 <= randomizationFactor <= 1\n  - `timeout` connection timeout before a `connect_error`\n    and `connect_timeout` events are emitted (`20000`)\n  - `autoConnect` by setting this false, you have to call `manager.open`\n    whenever you decide it\'s appropriate\n\n#### Events\n\n  - `connect_error`. Fired upon a connection error.\n    Parameters:\n      - `Object` error object\n  - `connect_timeout`. Fired upon a connection timeout.\n  - `reconnect`. Fired upon a successful reconnection.\n    Parameters:\n      - `Number` reconnection attempt number\n  - `reconnect_attempt`. Fired upon an attempt to reconnect.\n  - `reconnecting`. Fired upon an attempt to reconnect.\n    Parameters:\n      - `Number` reconnection attempt number\n  - `reconnect_error`. Fired upon a reconnection attempt error.\n    Parameters:\n      - `Object` error object\n  - `reconnect_failed`. Fired when couldn\'t reconnect within `reconnectionAttempts`\n  - `ping`. Fired when a ping packet is written out to the server.\n  - `pong`. Fired when a pong is received from the server.\n    Parameters:\n      - `Number` number of ms elapsed since `ping` packet (i.e.: latency).\n\nThe events above are also emitted on the individual sockets that\nreconnect that depend on this `Manager`.\n\n### Manager#reconnection(v:Boolean):Manager\n\n  Sets the `reconnection` option, or returns it if no parameters\n  are passed.\n\n### Manager#reconnectionAttempts(v:Boolean):Manager\n\n  Sets the `reconnectionAttempts` option, or returns it if no parameters\n  are passed.\n\n### Manager#reconnectionDelay(v:Boolean):Manager\n\n  Sets the `reconectionDelay` option, or returns it if no parameters\n  are passed.\n\n### Manager#reconnectionDelayMax(v:Boolean):Manager\n\n  Sets the `reconectionDelayMax` option, or returns it if no parameters\n  are passed.\n\n### Manager#timeout(v:Boolean):Manager\n\n  Sets the `timeout` option, or returns it if no parameters\n  are passed.\n\n### Socket\n\n#### Socket#id:String\n\nA property on the `socket` instance that is equal to the underlying engine.io socket id.\n\nThe property is present once the socket has connected, is removed when the socket disconnects and is updated if the socket reconnects.\n\n#### Socket#compress(v:Boolean):Socket\n\n  Sets a modifier for a subsequent event emission that the event data will\n  only be _compressed_ if the value is `true`. Defaults to `true` when you don\'t call the method.\n\n  ```js\n  socket.compress(false).emit(\'an event\', { some: \'data\' });\n  ```\n\n#### Events\n\n  - `connect`. Fired upon a connection including a successful reconnection.\n  - `error`. Fired upon a connection error\n    Parameters:\n      - `Object` error data\n  - `disconnect`. Fired upon a disconnection.\n  - `reconnect`. Fired upon a successful reconnection.\n    Parameters:\n      - `Number` reconnection attempt number\n  - `reconnect_attempt`. Fired upon an attempt to reconnect.\n  - `reconnecting`. Fired upon an attempt to reconnect.\n    Parameters:\n      - `Number` reconnection attempt number\n  - `reconnect_error`. Fired upon a reconnection attempt error.\n    Parameters:\n      - `Object` error object\n  - `reconnect_failed`. Fired when couldn\'t reconnect within `reconnectionAttempts`\n\n## License\n\n[MIT](/LICENSE)\n',
+178 silly resolved     readmeFilename: 'README.md',
+178 silly resolved     description: '[![Build Status](https://secure.travis-ci.org/socketio/socket.io-client.svg?branch=master)](http://travis-ci.org/socketio/socket.io-client) [![Dependency Status](https://david-dm.org/socketio/socket.io-client.svg)](https://david-dm.org/socketio/socket.io-client) [![devDependency Status](https://david-dm.org/socketio/socket.io-client/dev-status.svg)](https://david-dm.org/socketio/socket.io-client#info=devDependencies) ![NPM version](https://badge.fury.io/js/socket.io-client.svg) ![Downloads](http://img.shields.io/npm/dm/socket.io-client.svg?style=flat) [![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)',
+178 silly resolved     bugs: { url: 'https://github.com/Automattic/socket.io-client/issues' },
+178 silly resolved     _id: 'socket.io-client@1.5.1',
+178 silly resolved     _from: 'socket.io-client@1.5.1' },
+178 silly resolved   { name: 'socket.io-adapter',
+178 silly resolved     version: '0.4.0',
+178 silly resolved     license: 'MIT',
+178 silly resolved     repository:
+178 silly resolved      { type: 'git',
+178 silly resolved        url: 'git://github.com/Automattic/socket.io-adapter.git' },
+178 silly resolved     description: 'Default socket.io in-memory adapter class.',
+178 silly resolved     dependencies: { debug: '2.2.0', 'socket.io-parser': '2.2.2' },
+178 silly resolved     readme: '\n# socket.io-adapter\n\nDefault socket.io in-memory adapter class.\n\n## How to use\n\nThis module is not intended for end-user usage, but can be used as an\ninterface to inheirt from from other adapters you might want to build.\n\nAs an example of an adapter that builds on top of this, please take a look\nat [socket.io-redis](https://github.com/learnboost/socket.io-redis).\n\n## License\n\nMIT\n',
+178 silly resolved     readmeFilename: 'Readme.md',
+178 silly resolved     bugs: { url: 'https://github.com/Automattic/socket.io-adapter/issues' },
+178 silly resolved     _id: 'socket.io-adapter@0.4.0',
+178 silly resolved     _from: 'socket.io-adapter@0.4.0' },
+178 silly resolved   { name: 'debug',
+178 silly resolved     version: '2.2.0',
+178 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+178 silly resolved     description: 'small debugging utility',
+178 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+178 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+178 silly resolved     contributors: [ [Object] ],
+178 silly resolved     license: 'MIT',
+178 silly resolved     dependencies: { ms: '0.7.1' },
+178 silly resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+178 silly resolved     main: './node.js',
+178 silly resolved     browser: './browser.js',
+178 silly resolved     component: { scripts: [Object] },
+178 silly resolved     readme: '# debug\n\n  tiny node.js debugging utility modelled after node core\'s debugging technique.\n\n## Installation\n\n```bash\n$ npm install debug\n```\n\n## Usage\n\n With `debug` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `console.error`, so all of the `console` format string goodies you\'re used to work fine. A unique color is selected per-function for visibility.\n\nExample _app.js_:\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %s\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require(\'debug\')(\'worker\');\n\nsetInterval(function(){\n  debug(\'doing some work\');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n#### Windows note\n\n On Windows the environment variable is set using the `set` command.\n\n ```cmd\n set DEBUG=*,-not_this\n ```\n\nThen, run the program to be debugged as usual.\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stdout is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n\n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n\n## Conventions\n\n If you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser".\n\n## Wildcards\n\n  The `*` character may be used as a wildcard. Suppose for example your library has debuggers named "connect:bodyParser", "connect:compress", "connect:session", instead of listing all three with `DEBUG=connect:bodyParser,connect:compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a "-" character.  For example, `DEBUG=*,-connect:*` would include all debuggers except those starting with "connect:".\n\n## Browser support\n\n  Debug works in the browser as well, currently persisted by `localStorage`. Consider the situation shown below where you have `worker:a` and `worker:b`, and wish to debug both. Somewhere in the code on your page, include:\n\n```js\nwindow.myDebug = require("debug");\n```\n\n  ("debug" is a global object in the browser so we give this object a different name.) When your page is open in the browser, type the following in the console:\n\n```js\nmyDebug.enable("worker:*")\n```\n\n  Refresh the page. Debug output will continue to be sent to the console until it is disabled by typing `myDebug.disable()` in the console.\n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  b(\'doing some work\');\n}, 1200);\n```\n\n#### Web Inspector Colors\n\n  Colors are also enabled on "Web Inspectors" that understand the `%c` formatting\n  option. These are WebKit web inspectors, Firefox ([since version\n  31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\n  and the Firebug plugin for Firefox (any version).\n\n  Colored output looks something like:\n\n  ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)\n\n### stderr vs stdout\n\nYou can set an alternative logging method per-namespace by overriding the `log` method on a per-namespace or globally:\n\nExample _stdout.js_:\n\n```js\nvar debug = require(\'debug\');\nvar error = debug(\'app:error\');\n\n// by default stderr is used\nerror(\'goes to stderr!\');\n\nvar log = debug(\'app:log\');\n// set this namespace to log via console.log\nlog.log = console.log.bind(console); // don\'t forget to bind to console!\nlog(\'goes to stdout\');\nerror(\'still goes to stderr!\');\n\n// set all output to go via console.info\n// overrides all per-namespace log settings\ndebug.log = console.info.bind(console);\nerror(\'now goes to stdout via console.info\');\nlog(\'still goes to stdout, but via console.info now\');\n```\n\n### Save debug output to a file\n\nYou can save all debug statements to a file by piping them.\n\nExample:\n\n```bash\n$ DEBUG_FD=3 node your-app.js 3> whatever.log\n```\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+178 silly resolved     readmeFilename: 'Readme.md',
+178 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+178 silly resolved     _id: 'debug@2.2.0',
+178 silly resolved     _from: 'debug@2.2.0' },
+178 silly resolved   { name: 'engine.io',
+178 silly resolved     version: '1.7.2',
+178 silly resolved     description: 'The realtime engine behind Socket.IO. Provides the foundation of a bidirectional connection between client and server',
+178 silly resolved     main: './lib/engine.io',
+178 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+178 silly resolved     homepage: 'https://github.com/socketio/engine.io',
+178 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+178 silly resolved     license: 'MIT',
+178 silly resolved     dependencies:
+178 silly resolved      { accepts: '1.3.3',
+178 silly resolved        base64id: '0.1.0',
+178 silly resolved        debug: '2.2.0',
+178 silly resolved        'engine.io-parser': '1.3.1',
+178 silly resolved        ws: '1.1.1' },
+178 silly resolved     devDependencies:
+178 silly resolved      { 'babel-preset-es2015': '6.3.13',
+178 silly resolved        'engine.io-client': '1.7.2',
+178 silly resolved        'expect.js': '0.2.0',
+178 silly resolved        gulp: '3.9.0',
+178 silly resolved        'gulp-babel': '6.1.1',
+178 silly resolved        'gulp-mocha': '2.2.0',
+178 silly resolved        'gulp-nsp': '^2.4.1',
+178 silly resolved        mocha: '2.3.4',
+178 silly resolved        s: '0.1.1',
+178 silly resolved        superagent: '0.15.4',
+178 silly resolved        uws: '0.4.0' },
+178 silly resolved     scripts: { test: 'gulp test; EIO_WS_ENGINE=uws gulp test;' },
+178 silly resolved     repository: { type: 'git', url: 'git@github.com:socketio/engine.io.git' },
+178 silly resolved     files: [ 'index.js', 'lib/' ],
+178 silly resolved     readme: '\n# Engine.IO: the realtime engine\n\n[![Build Status](https://travis-ci.org/socketio/engine.io.svg?branch=master)](http://travis-ci.org/socketio/engine.io)\n[![NPM version](https://badge.fury.io/js/engine.io.svg)](http://badge.fury.io/js/engine.io)\n\n`Engine.IO` is the implementation of transport-based\ncross-browser/cross-device bi-directional communication layer for\n[Socket.IO](http://github.com/socketio/socket.io).\n\n## How to use\n\n### Server\n\n#### (A) Listening on a port\n\n```js\nvar engine = require(\'engine.io\');\nvar server = engine.listen(80);\n\nserver.on(\'connection\', function(socket){\n  socket.send(\'utf 8 string\');\n  socket.send(new Buffer([0, 1, 2, 3, 4, 5])); // binary data\n});\n```\n\n#### (B) Intercepting requests for a http.Server\n\n```js\nvar engine = require(\'engine.io\');\nvar http = require(\'http\').createServer().listen(3000);\nvar server = engine.attach(http);\n\nserver.on(\'connection\', function (socket) {\n  socket.on(\'message\', function(data){ });\n  socket.on(\'close\', function(){ });\n});\n```\n\n#### (C) Passing in requests\n\n```js\nvar engine = require(\'engine.io\');\nvar server = new engine.Server();\n\nserver.on(\'connection\', function(socket){\n  socket.send(\'hi\');\n});\n\n// …\nhttpServer.on(\'upgrade\', function(req, socket, head){\n  server.handleUpgrade(req, socket, head);\n});\nhttpServer.on(\'request\', function(req, res){\n  server.handleRequest(req, res);\n});\n```\n\n### Client\n\n```html\n<script src="/path/to/engine.io.js"></script>\n<script>\n  var socket = new eio.Socket(\'ws://localhost/\');\n  socket.on(\'open\', function(){\n    socket.on(\'message\', function(data){});\n    socket.on(\'close\', function(){});\n  });\n</script>\n```\n\nFor more information on the client refer to the\n[engine-client](http://github.com/learnboost/engine.io-client) repository.\n\n## What features does it have?\n\n- **Maximum reliability**. Connections are established even in the presence of:\n  - proxies and load balancers.\n  - personal firewall and antivirus software.\n  - for more information refer to **Goals** and **Architecture** sections\n- **Minimal client size** aided by:\n  - lazy loading of flash transports.\n  - lack of redundant transports.\n- **Scalable**\n  - load balancer friendly\n- **Future proof**\n- **100% Node.JS core style**\n  - No API sugar (left for higher level projects)\n  - Written in readable vanilla JavaScript\n\n## API\n\n### Server\n\n<hr><br>\n\n#### Top-level\n\nThese are exposed by `require(\'engine.io\')`:\n\n##### Events\n\n- `flush`\n    - Called when a socket buffer is being flushed.\n    - **Arguments**\n      - `Socket`: socket being flushed\n      - `Array`: write buffer\n- `drain`\n    - Called when a socket buffer is drained\n    - **Arguments**\n      - `Socket`: socket being flushed\n\n##### Properties\n\n- `protocol` _(Number)_: protocol revision number\n- `Server`: Server class constructor\n- `Socket`: Socket class constructor\n- `Transport` _(Function)_: transport constructor\n- `transports` _(Object)_: map of available transports\n\n##### Methods\n\n- `()`\n    - Returns a new `Server` instance. If the first argument is an `http.Server` then the\n      new `Server` instance will be attached to it. Otherwise, the arguments are passed\n      directly to the `Server` constructor.\n    - **Parameters**\n      - `http.Server`: optional, server to attach to.\n      - `Object`: optional, options object (see `Server#constructor` api docs below)\n\n  The following are identical ways to instantiate a server and then attach it.\n  ```js\n  var httpServer; // previously created with `http.createServer();` from node.js api.\n\n  // create a server first, and then attach\n  var eioServer = require(\'engine.io\').Server();\n  eioServer.attach(httpServer);\n\n  // or call the module as a function to get `Server`\n  var eioServer = require(\'engine.io\')();\n  eioServer.attach(httpServer);\n\n  // immediately attach\n  var eioServer = require(\'engine.io\')(httpServer);\n  ```\n\n- `listen`\n    - Creates an `http.Server` which listens on the given port and attaches WS\n      to it. It returns `501 Not Implemented` for regular http requests.\n    - **Parameters**\n      - `Number`: port to listen on.\n      - `Object`: optional, options object\n      - `Function`: callback for `listen`.\n    - **Options**\n      - All options from `Server.attach` method, documented below.\n      - **Additionally** See Server `constructor` below for options you can pass for creating the new Server\n    - **Returns** `Server`\n- `attach`\n    - Captures `upgrade` requests for a `http.Server`. In other words, makes\n      a regular http.Server WebSocket-compatible.\n    - **Parameters**\n      - `http.Server`: server to attach to.\n      - `Object`: optional, options object\n    - **Options**\n      - All options from `Server.attach` method, documented below.\n      - **Additionally** See Server `constructor` below for options you can pass for creating the new Server\n    - **Returns** `Server` a new Server instance.\n\n<hr><br>\n\n#### Server\n\nThe main server/manager. _Inherits from EventEmitter_.\n\n##### Events\n\n- `connection`\n    - Fired when a new connection is established.\n    - **Arguments**\n      - `Socket`: a Socket object\n\n##### Properties\n\n**Important**: if you plan to use Engine.IO in a scalable way, please\nkeep in mind the properties below will only reflect the clients connected\nto a single process.\n\n- `clients` _(Object)_: hash of connected clients by id.\n- `clientsCount` _(Number)_: number of connected clients.\n\n##### Methods\n\n- **constructor**\n    - Initializes the server\n    - **Parameters**\n      - `Object`: optional, options object\n    - **Options**\n      - `pingTimeout` (`Number`): how many ms without a pong packet to\n        consider the connection closed (`60000`)\n      - `pingInterval` (`Number`): how many ms before sending a new ping\n        packet (`25000`)\n      - `upgradeTimeout` (`Number`): how many ms before an uncompleted transport upgrade is cancelled (`10000`)\n      - `maxHttpBufferSize` (`Number`): how many bytes or characters a message\n        can be when polling, before closing the session (to avoid DoS). Default\n        value is `10E7`.\n      - `allowRequest` (`Function`): A function that receives a given handshake\n        or upgrade request as its first parameter, and can decide whether to\n        continue or not. The second argument is a function that needs to be\n        called with the decided information: `fn(err, success)`, where\n        `success` is a boolean value where false means that the request is\n        rejected, and err is an error code.\n      - `transports` (`<Array> String`): transports to allow connections\n        to (`[\'polling\', \'websocket\']`)\n      - `allowUpgrades` (`Boolean`): whether to allow transport upgrades\n        (`true`)\n      - `perMessageDeflate` (`Object|Boolean`): parameters of the WebSocket permessage-deflate extension\n        (see [ws module](https://github.com/einaros/ws) api docs). Set to `false` to disable. (`true`)\n        - `threshold` (`Number`): data is compressed only if the byte size is above this value (`1024`)\n      - `httpCompression` (`Object|Boolean`): parameters of the http compression for the polling transports\n        (see [zlib](http://nodejs.org/api/zlib.html#zlib_options) api docs). Set to `false` to disable. (`true`)\n        - `threshold` (`Number`): data is compressed only if the byte size is above this value (`1024`)\n      - `cookie` (`String|Boolean`): name of the HTTP cookie that\n        contains the client sid to send as part of handshake response\n        headers. Set to `false` to not send one. (`io`)\n      - `cookiePath` (`String|Boolean`): path of the above `cookie`\n        option. If false, no path will be sent, which means browsers will only send the cookie on the engine.io attached path (`/engine.io`).\n        Set this to `/` to send the io cookie on all requests. (`false`)\n      - `wsEngine` (`String`): what WebSocket server implementation to use. Specified module must conform to the `ws` interface (see [ws module api docs](https://github.com/websockets/ws/blob/master/doc/ws.md)). Default value is `ws`. An alternative c++ addon is also available by installing `uws` module.\n- `close`\n    - Closes all clients\n    - **Returns** `Server` for chaining\n- `handleRequest`\n    - Called internally when a `Engine` request is intercepted.\n    - **Parameters**\n      - `http.ServerRequest`: a node request object\n      - `http.ServerResponse`: a node response object\n    - **Returns** `Server` for chaining\n- `handleUpgrade`\n    - Called internally when a `Engine` ws upgrade is intercepted.\n    - **Parameters** (same as `upgrade` event)\n      - `http.ServerRequest`: a node request object\n      - `net.Stream`: TCP socket for the request\n      - `Buffer`: legacy tail bytes\n    - **Returns** `Server` for chaining\n- `attach`\n    - Attach this Server instance to an `http.Server`\n    - Captures `upgrade` requests for a `http.Server`. In other words, makes\n      a regular http.Server WebSocket-compatible.\n    - **Parameters**\n      - `http.Server`: server to attach to.\n      - `Object`: optional, options object\n    - **Options**\n      - `path` (`String`): name of the path to capture (`/engine.io`).\n      - `destroyUpgrade` (`Boolean`): destroy unhandled upgrade requests (`true`)\n      - `destroyUpgradeTimeout` (`Number`): milliseconds after which unhandled requests are ended (`1000`)\n- `generateId`\n    - Generate a socket id.\n    - Overwrite this method to generate your custom socket id.\n    - **Parameters**\n      - `http.ServerRequest`: a node request object\n  - **Returns** A socket id for connected client.\n\n<hr><br>\n\n#### Socket\n\nA representation of a client. _Inherits from EventEmitter_.\n\n##### Events\n\n- `close`\n    - Fired when the client is disconnected.\n    - **Arguments**\n      - `String`: reason for closing\n      - `Object`: description object (optional)\n- `message`\n    - Fired when the client sends a message.\n    - **Arguments**\n      - `String` or `Buffer`: Unicode string or Buffer with binary contents\n- `error`\n    - Fired when an error occurs.\n    - **Arguments**\n      - `Error`: error object\n- `flush`\n    - Called when the write buffer is being flushed.\n    - **Arguments**\n      - `Array`: write buffer\n- `drain`\n    - Called when the write buffer is drained\n- `packet`\n    - Called when a socket received a packet (`message`, `ping`)\n    - **Arguments**\n      - `type`: packet type\n      - `data`: packet data (if type is message)\n- `packetCreate`\n    - Called before a socket sends a packet (`message`, `pong`)\n    - **Arguments**\n      - `type`: packet type\n      - `data`: packet data (if type is message)\n\n##### Properties\n\n- `id` _(String)_: unique identifier\n- `server` _(Server)_: engine parent reference\n- `request` _(http.ServerRequest)_: request that originated the Socket\n- `upgraded` _(Boolean)_: whether the transport has been upgraded\n- `readyState` _(String)_: opening|open|closing|closed\n- `transport` _(Transport)_: transport reference\n\n##### Methods\n\n- `send`:\n    - Sends a message, performing `message = toString(arguments[0])` unless\n      sending binary data, which is sent as is.\n    - **Parameters**\n      - `String` | `Buffer` | `ArrayBuffer` | `ArrayBufferView`: a string or any object implementing `toString()`, with outgoing data, or a Buffer or ArrayBuffer with binary data. Also any ArrayBufferView can be sent as is.\n      - `Object`: optional, options object\n      - `Function`: optional, a callback executed when the message gets flushed out by the transport\n    - **Options**\n      - `compress` (`Boolean`): whether to compress sending data. This option might be ignored and forced to be `true` when using polling. (`true`)\n    - **Returns** `Socket` for chaining\n- `close`\n    - Disconnects the client\n    - **Returns** `Socket` for chaining\n\n### Client\n\n<hr><br>\n\nExposed in the `eio` global namespace (in the browser), or by\n`require(\'engine.io-client\')` (in Node.JS).\n\nFor the client API refer to the\n[engine-client](http://github.com/learnboost/engine.io-client) repository.\n\n## Debug / logging\n\nEngine.IO is powered by [debug](http://github.com/visionmedia/debug).\nIn order to see all the debug output, run your app with the environment variable\n`DEBUG` including the desired scope.\n\nTo see the output from all of Engine.IO\'s debugging scopes you can use:\n\n```\nDEBUG=engine* node myapp\n```\n\n## Transports\n\n- `polling`: XHR / JSONP polling transport.\n- `websocket`: WebSocket transport.\n\n## Plugins\n\n- [engine.io-conflation](https://github.com/EugenDueck/engine.io-conflation): Makes **conflation and aggregation** of messages straightforward.\n\n## Support\n\nThe support channels for `engine.io` are the same as `socket.io`:\n  - irc.freenode.net **#socket.io**\n  - [Google Groups](http://groups.google.com/group/socket_io)\n  - [Website](http://socket.io)\n\n## Development\n\nTo contribute patches, run tests or benchmarks, make sure to clone the\nrepository:\n\n```\ngit clone git://github.com/LearnBoost/engine.io.git\n```\n\nThen:\n\n```\ncd engine.io\nnpm install\n```\n\n## Tests\n\nTests run with `make test`. It runs the server tests that are aided by\nthe usage of `engine.io-client`.\n\nMake sure `npm install` is run first.\n\n## Goals\n\nThe main goal of `Engine` is ensuring the most reliable realtime communication.\nUnlike the previous Socket.IO core, it always establishes a long-polling\nconnection first, then tries to upgrade to better transports that are "tested" on\nthe side.\n\nDuring the lifetime of the Socket.IO projects, we\'ve found countless drawbacks\nto relying on `HTML5 WebSocket` or `Flash Socket` as the first connection\nmechanisms.\n\nBoth are clearly the _right way_ of establishing a bidirectional communication,\nwith HTML5 WebSocket being the way of the future. However, to answer most business\nneeds, alternative traditional HTTP 1.1 mechanisms are just as good as delivering\nthe same solution.\n\nWebSocket based connections have two fundamental benefits:\n\n1. **Better server performance**\n  - _A: Load balancers_<br>\n      Load balancing a long polling connection poses a serious architectural nightmare\n      since requests can come from any number of open sockets by the user agent, but\n      they all need to be routed to the process and computer that owns the `Engine`\n      connection. This negatively impacts RAM and CPU usage.\n  - _B: Network traffic_<br>\n      WebSocket is designed around the premise that each message frame has to be\n      surrounded by the least amount of data. In HTTP 1.1 transports, each message\n      frame is surrounded by HTTP headers and chunked encoding frames. If you try to\n      send the message _"Hello world"_ with xhr-polling, the message ultimately\n      becomes larger than if you were to send it with WebSocket.\n  - _C: Lightweight parser_<br>\n      As an effect of **B**, the server has to do a lot more work to parse the network\n      data and figure out the message when traditional HTTP requests are used\n      (as in long polling). This means that another advantage of WebSocket is\n      less server CPU usage.\n\n2. **Better user experience**\n\n    Due to the reasons stated in point **1**, the most important effect of being able\n    to establish a WebSocket connection is raw data transfer speed, which translates\n    in _some_ cases in better user experience.\n\n    Applications with heavy realtime interaction (such as games) will benefit greatly,\n    whereas applications like realtime chat (Gmail/Facebook), newsfeeds (Facebook) or\n    timelines (Twitter) will have negligible user experience improvements.\n\nHaving said this, attempting to establish a WebSocket connection directly so far has\nproven problematic:\n\n1. **Proxies**<br>\n    Many corporate proxies block WebSocket traffic.\n\n2. **Personal firewall and antivirus software**<br>\n    As a result of our research, we\'ve found that at least 3 personal security\n    applications block WebSocket traffic.\n\n3. **Cloud application platforms**<br>\n    Platforms like Heroku or No.de have had trouble keeping up with the fast-paced\n    nature of the evolution of the WebSocket protocol. Applications therefore end up\n    inevitably using long polling, but the seamless installation experience of\n    Socket.IO we strive for (_"require() it and it just works"_) disappears.\n\nSome of these problems have solutions. In the case of proxies and personal programs,\nhowever, the solutions many times involve upgrading software. Experience has shown\nthat relying on client software upgrades to deliver a business solution is\nfruitless: the very existence of this project has to do with a fragmented panorama\nof user agent distribution, with clients connecting with latest versions of the most\nmodern user agents (Chrome, Firefox and Safari), but others with versions as low as\nIE 5.5.\n\nFrom the user perspective, an unsuccessful WebSocket connection can translate in\nup to at least 10 seconds of waiting for the realtime application to begin\nexchanging data. This **perceptively** hurts user experience.\n\nTo summarize, **Engine** focuses on reliability and user experience first, marginal\npotential UX improvements and increased server performance second. `Engine` is the\nresult of all the lessons learned with WebSocket in the wild.\n\n## Architecture\n\nThe main premise of `Engine`, and the core of its existence, is the ability to\nswap transports on the fly. A connection starts as xhr-polling, but it can\nswitch to WebSocket.\n\nThe central problem this poses is: how do we switch transports without losing\nmessages?\n\n`Engine` only switches from polling to another transport in between polling\ncycles. Since the server closes the connection after a certain timeout when\nthere\'s no activity, and the polling transport implementation buffers messages\nin between connections, this ensures no message loss and optimal performance.\n\nAnother benefit of this design is that we workaround almost all the limitations\nof **Flash Socket**, such as slow connection times, increased file size (we can\nsafely lazy load it without hurting user experience), etc.\n\n## FAQ\n\n### Can I use engine without Socket.IO ?\n\nAbsolutely. Although the recommended framework for building realtime applications\nis Socket.IO, since it provides fundamental features for real-world applications\nsuch as multiplexing, reconnection support, etc.\n\n`Engine` is to Socket.IO what Connect is to Express. An essential piece for building\nrealtime frameworks, but something you _probably_ won\'t be using for building\nactual applications.\n\n### Does the server serve the client?\n\nNo. The main reason is that `Engine` is meant to be bundled with frameworks.\nSocket.IO includes `Engine`, therefore serving two clients is not necessary. If\nyou use Socket.IO, including\n\n```html\n<script src="/socket.io/socket.io.js">\n```\n\nhas you covered.\n\n### Can I implement `Engine` in other languages?\n\nAbsolutely. The [engine.io-protocol](https://github.com/LearnBoost/engine.io-protocol)\nrepository contains the most up to date description of the specification\nat all times, and the parser implementation in JavaScript.\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014 Guillermo Rauch &lt;guillermo@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+178 silly resolved     readmeFilename: 'README.md',
+178 silly resolved     bugs: { url: 'https://github.com/socketio/engine.io/issues' },
+178 silly resolved     _id: 'engine.io@1.7.2',
+178 silly resolved     _from: 'engine.io@1.7.2' } ]
+179 info install has-binary@0.1.7 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+180 info install socket.io-parser@2.3.1 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+181 info install socket.io-client@1.5.1 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+182 info install socket.io-adapter@0.4.0 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+183 info install debug@2.2.0 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+184 info install engine.io@1.7.2 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+185 info installOne has-binary@0.1.7
+186 info installOne socket.io-parser@2.3.1
+187 info installOne socket.io-client@1.5.1
+188 info installOne socket.io-adapter@0.4.0
+189 info installOne debug@2.2.0
+190 info installOne engine.io@1.7.2
+191 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary unbuild
+192 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter unbuild
+193 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client unbuild
+194 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug unbuild
+195 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/engine.io unbuild
+196 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser unbuild
+197 verbose tar unpack /home/JFitton/.npm/has-binary/0.1.7/package.tgz
+198 silly lockFile 3e389b80-ocket-io-node-modules-has-binary tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary
+199 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary /home/JFitton/.npm/3e389b80-ocket-io-node-modules-has-binary.lock
+200 silly lockFile d43b1255-npm-has-binary-0-1-7-package-tgz tar:///home/JFitton/.npm/has-binary/0.1.7/package.tgz
+201 verbose lock tar:///home/JFitton/.npm/has-binary/0.1.7/package.tgz /home/JFitton/.npm/d43b1255-npm-has-binary-0-1-7-package-tgz.lock
+202 verbose tar unpack /home/JFitton/.npm/socket.io-client/1.5.1/package.tgz
+203 silly lockFile 597fec1a-io-node-modules-socket-io-client tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client
+204 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client /home/JFitton/.npm/597fec1a-io-node-modules-socket-io-client.lock
+205 silly lockFile e5dd4709-cket-io-client-1-5-1-package-tgz tar:///home/JFitton/.npm/socket.io-client/1.5.1/package.tgz
+206 verbose lock tar:///home/JFitton/.npm/socket.io-client/1.5.1/package.tgz /home/JFitton/.npm/e5dd4709-cket-io-client-1-5-1-package-tgz.lock
+207 verbose tar unpack /home/JFitton/.npm/socket.io-adapter/0.4.0/package.tgz
+208 silly lockFile eae12e97-o-node-modules-socket-io-adapter tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter
+209 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter /home/JFitton/.npm/eae12e97-o-node-modules-socket-io-adapter.lock
+210 silly lockFile 26b5a3ff-ket-io-adapter-0-4-0-package-tgz tar:///home/JFitton/.npm/socket.io-adapter/0.4.0/package.tgz
+211 verbose lock tar:///home/JFitton/.npm/socket.io-adapter/0.4.0/package.tgz /home/JFitton/.npm/26b5a3ff-ket-io-adapter-0-4-0-package-tgz.lock
+212 verbose tar unpack /home/JFitton/.npm/socket.io-parser/2.3.1/package.tgz
+213 silly lockFile 89172507-io-node-modules-socket-io-parser tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser
+214 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser /home/JFitton/.npm/89172507-io-node-modules-socket-io-parser.lock
+215 silly lockFile afd64390-cket-io-parser-2-3-1-package-tgz tar:///home/JFitton/.npm/socket.io-parser/2.3.1/package.tgz
+216 verbose lock tar:///home/JFitton/.npm/socket.io-parser/2.3.1/package.tgz /home/JFitton/.npm/afd64390-cket-io-parser-2-3-1-package-tgz.lock
+217 verbose tar unpack /home/JFitton/.npm/engine.io/1.7.2/package.tgz
+218 silly lockFile c0bff8da-socket-io-node-modules-engine-io tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/engine.io
+219 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/engine.io /home/JFitton/.npm/c0bff8da-socket-io-node-modules-engine-io.lock
+220 silly lockFile 62548bbc--npm-engine-io-1-7-2-package-tgz tar:///home/JFitton/.npm/engine.io/1.7.2/package.tgz
+221 verbose lock tar:///home/JFitton/.npm/engine.io/1.7.2/package.tgz /home/JFitton/.npm/62548bbc--npm-engine-io-1-7-2-package-tgz.lock
+222 verbose tar unpack /home/JFitton/.npm/debug/2.2.0/package.tgz
+223 silly lockFile 6155f84c-les-socket-io-node-modules-debug tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug
+224 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug /home/JFitton/.npm/6155f84c-les-socket-io-node-modules-debug.lock
+225 silly lockFile 54eaf248-tton-npm-debug-2-2-0-package-tgz tar:///home/JFitton/.npm/debug/2.2.0/package.tgz
+226 verbose lock tar:///home/JFitton/.npm/debug/2.2.0/package.tgz /home/JFitton/.npm/54eaf248-tton-npm-debug-2-2-0-package-tgz.lock
+227 silly gunzTarPerm modes [ '755', '644' ]
+228 silly gunzTarPerm modes [ '755', '644' ]
+229 silly gunzTarPerm modes [ '755', '644' ]
+230 silly gunzTarPerm modes [ '755', '644' ]
+231 silly gunzTarPerm modes [ '755', '644' ]
+232 silly gunzTarPerm modes [ '755', '644' ]
+233 silly gunzTarPerm extractEntry package.json
+234 silly gunzTarPerm extractEntry package.json
+235 silly gunzTarPerm extractEntry package.json
+236 silly gunzTarPerm extractEntry package.json
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm extractEntry package.json
+239 silly gunzTarPerm extractEntry .npmignore
+240 silly gunzTarPerm extractEntry README.md
+241 silly gunzTarPerm extractEntry binary.js
+242 silly gunzTarPerm extractEntry index.js
+243 silly gunzTarPerm extractEntry README.md
+244 silly gunzTarPerm extractEntry index.js
+245 silly gunzTarPerm extractEntry lib/engine.io.js
+246 silly gunzTarPerm extractEntry lib/server.js
+247 silly gunzTarPerm extractEntry lib/socket.js
+248 silly gunzTarPerm extractEntry lib/transport.js
+249 silly gunzTarPerm extractEntry lib/transports/index.js
+250 silly gunzTarPerm extractEntry lib/transports/polling-jsonp.js
+251 silly gunzTarPerm extractEntry lib/transports/polling-xhr.js
+252 silly gunzTarPerm extractEntry lib/transports/polling.js
+253 silly gunzTarPerm extractEntry lib/transports/websocket.js
+254 silly gunzTarPerm extractEntry .npmignore
+255 silly gunzTarPerm extractEntry browser.js
+256 silly gunzTarPerm extractEntry README.md
+257 silly gunzTarPerm extractEntry socket.io.js
+258 silly gunzTarPerm extractEntry .npmignore
+259 silly gunzTarPerm extractEntry LICENSE
+260 silly gunzTarPerm extractEntry LICENSE
+261 silly gunzTarPerm extractEntry index.js
+262 silly gunzTarPerm extractEntry index.js
+263 silly gunzTarPerm extractEntry History.md
+264 silly gunzTarPerm extractEntry is-buffer.js
+265 silly gunzTarPerm extractEntry Readme.md
+266 silly gunzTarPerm extractEntry debug.js
+267 silly gunzTarPerm extractEntry node.js
+268 silly gunzTarPerm extractEntry lib/index.js
+269 silly gunzTarPerm extractEntry Readme.md
+270 silly gunzTarPerm extractEntry test.js
+271 silly gunzTarPerm extractEntry History.md
+272 silly gunzTarPerm extractEntry .jshintrc
+273 silly gunzTarPerm extractEntry Makefile
+274 silly gunzTarPerm extractEntry lib/manager.js
+275 silly gunzTarPerm extractEntry lib/on.js
+276 silly gunzTarPerm extractEntry History.md
+277 silly gunzTarPerm extractEntry component.json
+278 silly gunzTarPerm extractEntry Makefile
+279 silly gunzTarPerm extractEntry Readme.md
+280 silly gunzTarPerm extractEntry bower.json
+281 silly lockFile 89172507-io-node-modules-socket-io-parser tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser
+282 silly lockFile 89172507-io-node-modules-socket-io-parser tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser
+283 silly lockFile eae12e97-o-node-modules-socket-io-adapter tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter
+284 silly lockFile eae12e97-o-node-modules-socket-io-adapter tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter
+285 silly lockFile afd64390-cket-io-parser-2-3-1-package-tgz tar:///home/JFitton/.npm/socket.io-parser/2.3.1/package.tgz
+286 silly lockFile afd64390-cket-io-parser-2-3-1-package-tgz tar:///home/JFitton/.npm/socket.io-parser/2.3.1/package.tgz
+287 silly lockFile 26b5a3ff-ket-io-adapter-0-4-0-package-tgz tar:///home/JFitton/.npm/socket.io-adapter/0.4.0/package.tgz
+288 silly lockFile 26b5a3ff-ket-io-adapter-0-4-0-package-tgz tar:///home/JFitton/.npm/socket.io-adapter/0.4.0/package.tgz
+289 info preinstall socket.io-parser@2.3.1
+290 info preinstall socket.io-adapter@0.4.0
+291 verbose readDependencies using package.json deps
+292 verbose readDependencies using package.json deps
+293 silly lockFile 3e389b80-ocket-io-node-modules-has-binary tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary
+294 silly lockFile 3e389b80-ocket-io-node-modules-has-binary tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary
+295 verbose readDependencies using package.json deps
+296 verbose readDependencies using package.json deps
+297 silly lockFile d43b1255-npm-has-binary-0-1-7-package-tgz tar:///home/JFitton/.npm/has-binary/0.1.7/package.tgz
+298 silly lockFile d43b1255-npm-has-binary-0-1-7-package-tgz tar:///home/JFitton/.npm/has-binary/0.1.7/package.tgz
+299 verbose cache add [ 'isarray@0.0.1', null ]
+300 verbose cache add name=undefined spec="isarray@0.0.1" args=["isarray@0.0.1",null]
+301 verbose parsed url { protocol: null,
+301 verbose parsed url   slashes: null,
+301 verbose parsed url   auth: null,
+301 verbose parsed url   host: null,
+301 verbose parsed url   port: null,
+301 verbose parsed url   hostname: null,
+301 verbose parsed url   hash: null,
+301 verbose parsed url   search: null,
+301 verbose parsed url   query: null,
+301 verbose parsed url   pathname: 'isarray@0.0.1',
+301 verbose parsed url   path: 'isarray@0.0.1',
+301 verbose parsed url   href: 'isarray@0.0.1' }
+302 verbose cache add name="isarray" spec="0.0.1" args=["isarray","0.0.1"]
+303 verbose parsed url { protocol: null,
+303 verbose parsed url   slashes: null,
+303 verbose parsed url   auth: null,
+303 verbose parsed url   host: null,
+303 verbose parsed url   port: null,
+303 verbose parsed url   hostname: null,
+303 verbose parsed url   hash: null,
+303 verbose parsed url   search: null,
+303 verbose parsed url   query: null,
+303 verbose parsed url   pathname: '0.0.1',
+303 verbose parsed url   path: '0.0.1',
+303 verbose parsed url   href: '0.0.1' }
+304 verbose addNamed [ 'isarray', '0.0.1' ]
+305 verbose addNamed [ '0.0.1', '0.0.1' ]
+306 silly lockFile 9efe11b1-isarray-0-0-1 isarray@0.0.1
+307 verbose lock isarray@0.0.1 /home/JFitton/.npm/9efe11b1-isarray-0-0-1.lock
+308 verbose cache add [ 'socket.io-parser@2.2.2', null ]
+309 verbose cache add name=undefined spec="socket.io-parser@2.2.2" args=["socket.io-parser@2.2.2",null]
+310 verbose parsed url { protocol: null,
+310 verbose parsed url   slashes: null,
+310 verbose parsed url   auth: null,
+310 verbose parsed url   host: null,
+310 verbose parsed url   port: null,
+310 verbose parsed url   hostname: null,
+310 verbose parsed url   hash: null,
+310 verbose parsed url   search: null,
+310 verbose parsed url   query: null,
+310 verbose parsed url   pathname: 'socket.io-parser@2.2.2',
+310 verbose parsed url   path: 'socket.io-parser@2.2.2',
+310 verbose parsed url   href: 'socket.io-parser@2.2.2' }
+311 verbose cache add name="socket.io-parser" spec="2.2.2" args=["socket.io-parser","2.2.2"]
+312 verbose parsed url { protocol: null,
+312 verbose parsed url   slashes: null,
+312 verbose parsed url   auth: null,
+312 verbose parsed url   host: null,
+312 verbose parsed url   port: null,
+312 verbose parsed url   hostname: null,
+312 verbose parsed url   hash: null,
+312 verbose parsed url   search: null,
+312 verbose parsed url   query: null,
+312 verbose parsed url   pathname: '2.2.2',
+312 verbose parsed url   path: '2.2.2',
+312 verbose parsed url   href: '2.2.2' }
+313 verbose addNamed [ 'socket.io-parser', '2.2.2' ]
+314 verbose addNamed [ '2.2.2', '2.2.2' ]
+315 silly lockFile e1b3ecb4-socket-io-parser-2-2-2 socket.io-parser@2.2.2
+316 verbose lock socket.io-parser@2.2.2 /home/JFitton/.npm/e1b3ecb4-socket-io-parser-2-2-2.lock
+317 verbose cache add [ 'json3@3.3.2', null ]
+318 verbose cache add name=undefined spec="json3@3.3.2" args=["json3@3.3.2",null]
+319 verbose parsed url { protocol: null,
+319 verbose parsed url   slashes: null,
+319 verbose parsed url   auth: null,
+319 verbose parsed url   host: null,
+319 verbose parsed url   port: null,
+319 verbose parsed url   hostname: null,
+319 verbose parsed url   hash: null,
+319 verbose parsed url   search: null,
+319 verbose parsed url   query: null,
+319 verbose parsed url   pathname: 'json3@3.3.2',
+319 verbose parsed url   path: 'json3@3.3.2',
+319 verbose parsed url   href: 'json3@3.3.2' }
+320 verbose cache add name="json3" spec="3.3.2" args=["json3","3.3.2"]
+321 verbose parsed url { protocol: null,
+321 verbose parsed url   slashes: null,
+321 verbose parsed url   auth: null,
+321 verbose parsed url   host: null,
+321 verbose parsed url   port: null,
+321 verbose parsed url   hostname: null,
+321 verbose parsed url   hash: null,
+321 verbose parsed url   search: null,
+321 verbose parsed url   query: null,
+321 verbose parsed url   pathname: '3.3.2',
+321 verbose parsed url   path: '3.3.2',
+321 verbose parsed url   href: '3.3.2' }
+322 verbose addNamed [ 'json3', '3.3.2' ]
+323 verbose addNamed [ '3.3.2', '3.3.2' ]
+324 silly lockFile 270a8eaa-json3-3-3-2 json3@3.3.2
+325 verbose lock json3@3.3.2 /home/JFitton/.npm/270a8eaa-json3-3-3-2.lock
+326 verbose cache add [ 'component-emitter@1.1.2', null ]
+327 verbose cache add name=undefined spec="component-emitter@1.1.2" args=["component-emitter@1.1.2",null]
+328 verbose parsed url { protocol: null,
+328 verbose parsed url   slashes: null,
+328 verbose parsed url   auth: null,
+328 verbose parsed url   host: null,
+328 verbose parsed url   port: null,
+328 verbose parsed url   hostname: null,
+328 verbose parsed url   hash: null,
+328 verbose parsed url   search: null,
+328 verbose parsed url   query: null,
+328 verbose parsed url   pathname: 'component-emitter@1.1.2',
+328 verbose parsed url   path: 'component-emitter@1.1.2',
+328 verbose parsed url   href: 'component-emitter@1.1.2' }
+329 verbose cache add name="component-emitter" spec="1.1.2" args=["component-emitter","1.1.2"]
+330 verbose parsed url { protocol: null,
+330 verbose parsed url   slashes: null,
+330 verbose parsed url   auth: null,
+330 verbose parsed url   host: null,
+330 verbose parsed url   port: null,
+330 verbose parsed url   hostname: null,
+330 verbose parsed url   hash: null,
+330 verbose parsed url   search: null,
+330 verbose parsed url   query: null,
+330 verbose parsed url   pathname: '1.1.2',
+330 verbose parsed url   path: '1.1.2',
+330 verbose parsed url   href: '1.1.2' }
+331 verbose addNamed [ 'component-emitter', '1.1.2' ]
+332 verbose addNamed [ '1.1.2', '1.1.2' ]
+333 silly lockFile 7f1a440e-component-emitter-1-1-2 component-emitter@1.1.2
+334 verbose lock component-emitter@1.1.2 /home/JFitton/.npm/7f1a440e-component-emitter-1-1-2.lock
+335 info preinstall has-binary@0.1.7
+336 verbose url raw isarray/0.0.1
+337 verbose url resolving [ 'https://registry.npmjs.org/', './isarray/0.0.1' ]
+338 verbose url resolved https://registry.npmjs.org/isarray/0.0.1
+339 info trying registry request attempt 1 at 12:40:02
+340 verbose etag "A6C9AG8H7O75257YPFF0X733X"
+341 http GET https://registry.npmjs.org/isarray/0.0.1
+342 verbose url raw socket.io-parser/2.2.2
+343 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-parser/2.2.2' ]
+344 verbose url resolved https://registry.npmjs.org/socket.io-parser/2.2.2
+345 info trying registry request attempt 1 at 12:40:02
+346 verbose etag "BTB3I6JO1888TR24WCBEJQ3V6"
+347 http GET https://registry.npmjs.org/socket.io-parser/2.2.2
+348 verbose readDependencies using package.json deps
+349 verbose url raw json3/3.3.2
+350 verbose url resolving [ 'https://registry.npmjs.org/', './json3/3.3.2' ]
+351 verbose url resolved https://registry.npmjs.org/json3/3.3.2
+352 info trying registry request attempt 1 at 12:40:02
+353 verbose etag "6LMIT1WY303F5H098H25BXX3W"
+354 http GET https://registry.npmjs.org/json3/3.3.2
+355 verbose url raw component-emitter/1.1.2
+356 verbose url resolving [ 'https://registry.npmjs.org/', './component-emitter/1.1.2' ]
+357 verbose url resolved https://registry.npmjs.org/component-emitter/1.1.2
+358 info trying registry request attempt 1 at 12:40:02
+359 verbose etag "8EWHS01W2KW8LPTXBF84OU8MW"
+360 http GET https://registry.npmjs.org/component-emitter/1.1.2
+361 verbose readDependencies using package.json deps
+362 verbose cache add [ 'isarray@0.0.1', null ]
+363 verbose cache add name=undefined spec="isarray@0.0.1" args=["isarray@0.0.1",null]
+364 verbose parsed url { protocol: null,
+364 verbose parsed url   slashes: null,
+364 verbose parsed url   auth: null,
+364 verbose parsed url   host: null,
+364 verbose parsed url   port: null,
+364 verbose parsed url   hostname: null,
+364 verbose parsed url   hash: null,
+364 verbose parsed url   search: null,
+364 verbose parsed url   query: null,
+364 verbose parsed url   pathname: 'isarray@0.0.1',
+364 verbose parsed url   path: 'isarray@0.0.1',
+364 verbose parsed url   href: 'isarray@0.0.1' }
+365 verbose cache add name="isarray" spec="0.0.1" args=["isarray","0.0.1"]
+366 verbose parsed url { protocol: null,
+366 verbose parsed url   slashes: null,
+366 verbose parsed url   auth: null,
+366 verbose parsed url   host: null,
+366 verbose parsed url   port: null,
+366 verbose parsed url   hostname: null,
+366 verbose parsed url   hash: null,
+366 verbose parsed url   search: null,
+366 verbose parsed url   query: null,
+366 verbose parsed url   pathname: '0.0.1',
+366 verbose parsed url   path: '0.0.1',
+366 verbose parsed url   href: '0.0.1' }
+367 verbose addNamed [ 'isarray', '0.0.1' ]
+368 silly lockFile 6155f84c-les-socket-io-node-modules-debug tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug
+369 silly lockFile 6155f84c-les-socket-io-node-modules-debug tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug
+370 silly lockFile 54eaf248-tton-npm-debug-2-2-0-package-tgz tar:///home/JFitton/.npm/debug/2.2.0/package.tgz
+371 silly lockFile 54eaf248-tton-npm-debug-2-2-0-package-tgz tar:///home/JFitton/.npm/debug/2.2.0/package.tgz
+372 info preinstall debug@2.2.0
+373 verbose readDependencies using package.json deps
+374 verbose readDependencies using package.json deps
+375 verbose cache add [ 'ms@0.7.1', null ]
+376 verbose cache add name=undefined spec="ms@0.7.1" args=["ms@0.7.1",null]
+377 verbose parsed url { protocol: null,
+377 verbose parsed url   slashes: null,
+377 verbose parsed url   auth: null,
+377 verbose parsed url   host: null,
+377 verbose parsed url   port: null,
+377 verbose parsed url   hostname: null,
+377 verbose parsed url   hash: null,
+377 verbose parsed url   search: null,
+377 verbose parsed url   query: null,
+377 verbose parsed url   pathname: 'ms@0.7.1',
+377 verbose parsed url   path: 'ms@0.7.1',
+377 verbose parsed url   href: 'ms@0.7.1' }
+378 verbose cache add name="ms" spec="0.7.1" args=["ms","0.7.1"]
+379 verbose parsed url { protocol: null,
+379 verbose parsed url   slashes: null,
+379 verbose parsed url   auth: null,
+379 verbose parsed url   host: null,
+379 verbose parsed url   port: null,
+379 verbose parsed url   hostname: null,
+379 verbose parsed url   hash: null,
+379 verbose parsed url   search: null,
+379 verbose parsed url   query: null,
+379 verbose parsed url   pathname: '0.7.1',
+379 verbose parsed url   path: '0.7.1',
+379 verbose parsed url   href: '0.7.1' }
+380 verbose addNamed [ 'ms', '0.7.1' ]
+381 verbose addNamed [ '0.7.1', '0.7.1' ]
+382 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+383 verbose lock ms@0.7.1 /home/JFitton/.npm/3dba240c-ms-0-7-1.lock
+384 verbose url raw ms/0.7.1
+385 verbose url resolving [ 'https://registry.npmjs.org/', './ms/0.7.1' ]
+386 verbose url resolved https://registry.npmjs.org/ms/0.7.1
+387 info trying registry request attempt 1 at 12:40:02
+388 http GET https://registry.npmjs.org/ms/0.7.1
+389 silly gunzTarPerm extractEntry lib/socket.js
+390 silly gunzTarPerm extractEntry lib/url.js
+391 silly lockFile c0bff8da-socket-io-node-modules-engine-io tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/engine.io
+392 silly lockFile c0bff8da-socket-io-node-modules-engine-io tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/engine.io
+393 silly lockFile 62548bbc--npm-engine-io-1-7-2-package-tgz tar:///home/JFitton/.npm/engine.io/1.7.2/package.tgz
+394 silly lockFile 62548bbc--npm-engine-io-1-7-2-package-tgz tar:///home/JFitton/.npm/engine.io/1.7.2/package.tgz
+395 info preinstall engine.io@1.7.2
+396 verbose readDependencies using package.json deps
+397 verbose readDependencies using package.json deps
+398 verbose cache add [ 'engine.io-parser@1.3.1', null ]
+399 verbose cache add name=undefined spec="engine.io-parser@1.3.1" args=["engine.io-parser@1.3.1",null]
+400 verbose parsed url { protocol: null,
+400 verbose parsed url   slashes: null,
+400 verbose parsed url   auth: null,
+400 verbose parsed url   host: null,
+400 verbose parsed url   port: null,
+400 verbose parsed url   hostname: null,
+400 verbose parsed url   hash: null,
+400 verbose parsed url   search: null,
+400 verbose parsed url   query: null,
+400 verbose parsed url   pathname: 'engine.io-parser@1.3.1',
+400 verbose parsed url   path: 'engine.io-parser@1.3.1',
+400 verbose parsed url   href: 'engine.io-parser@1.3.1' }
+401 verbose cache add name="engine.io-parser" spec="1.3.1" args=["engine.io-parser","1.3.1"]
+402 verbose parsed url { protocol: null,
+402 verbose parsed url   slashes: null,
+402 verbose parsed url   auth: null,
+402 verbose parsed url   host: null,
+402 verbose parsed url   port: null,
+402 verbose parsed url   hostname: null,
+402 verbose parsed url   hash: null,
+402 verbose parsed url   search: null,
+402 verbose parsed url   query: null,
+402 verbose parsed url   pathname: '1.3.1',
+402 verbose parsed url   path: '1.3.1',
+402 verbose parsed url   href: '1.3.1' }
+403 verbose addNamed [ 'engine.io-parser', '1.3.1' ]
+404 verbose addNamed [ '1.3.1', '1.3.1' ]
+405 silly lockFile 50a50ab4-engine-io-parser-1-3-1 engine.io-parser@1.3.1
+406 verbose lock engine.io-parser@1.3.1 /home/JFitton/.npm/50a50ab4-engine-io-parser-1-3-1.lock
+407 verbose cache add [ 'accepts@1.3.3', null ]
+408 verbose cache add name=undefined spec="accepts@1.3.3" args=["accepts@1.3.3",null]
+409 verbose parsed url { protocol: null,
+409 verbose parsed url   slashes: null,
+409 verbose parsed url   auth: null,
+409 verbose parsed url   host: null,
+409 verbose parsed url   port: null,
+409 verbose parsed url   hostname: null,
+409 verbose parsed url   hash: null,
+409 verbose parsed url   search: null,
+409 verbose parsed url   query: null,
+409 verbose parsed url   pathname: 'accepts@1.3.3',
+409 verbose parsed url   path: 'accepts@1.3.3',
+409 verbose parsed url   href: 'accepts@1.3.3' }
+410 verbose cache add name="accepts" spec="1.3.3" args=["accepts","1.3.3"]
+411 verbose parsed url { protocol: null,
+411 verbose parsed url   slashes: null,
+411 verbose parsed url   auth: null,
+411 verbose parsed url   host: null,
+411 verbose parsed url   port: null,
+411 verbose parsed url   hostname: null,
+411 verbose parsed url   hash: null,
+411 verbose parsed url   search: null,
+411 verbose parsed url   query: null,
+411 verbose parsed url   pathname: '1.3.3',
+411 verbose parsed url   path: '1.3.3',
+411 verbose parsed url   href: '1.3.3' }
+412 verbose addNamed [ 'accepts', '1.3.3' ]
+413 verbose addNamed [ '1.3.3', '1.3.3' ]
+414 silly lockFile 2584cdf2-accepts-1-3-3 accepts@1.3.3
+415 verbose lock accepts@1.3.3 /home/JFitton/.npm/2584cdf2-accepts-1-3-3.lock
+416 verbose cache add [ 'base64id@0.1.0', null ]
+417 verbose cache add name=undefined spec="base64id@0.1.0" args=["base64id@0.1.0",null]
+418 verbose parsed url { protocol: null,
+418 verbose parsed url   slashes: null,
+418 verbose parsed url   auth: null,
+418 verbose parsed url   host: null,
+418 verbose parsed url   port: null,
+418 verbose parsed url   hostname: null,
+418 verbose parsed url   hash: null,
+418 verbose parsed url   search: null,
+418 verbose parsed url   query: null,
+418 verbose parsed url   pathname: 'base64id@0.1.0',
+418 verbose parsed url   path: 'base64id@0.1.0',
+418 verbose parsed url   href: 'base64id@0.1.0' }
+419 verbose cache add name="base64id" spec="0.1.0" args=["base64id","0.1.0"]
+420 verbose parsed url { protocol: null,
+420 verbose parsed url   slashes: null,
+420 verbose parsed url   auth: null,
+420 verbose parsed url   host: null,
+420 verbose parsed url   port: null,
+420 verbose parsed url   hostname: null,
+420 verbose parsed url   hash: null,
+420 verbose parsed url   search: null,
+420 verbose parsed url   query: null,
+420 verbose parsed url   pathname: '0.1.0',
+420 verbose parsed url   path: '0.1.0',
+420 verbose parsed url   href: '0.1.0' }
+421 verbose addNamed [ 'base64id', '0.1.0' ]
+422 verbose addNamed [ '0.1.0', '0.1.0' ]
+423 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+424 verbose lock base64id@0.1.0 /home/JFitton/.npm/b2185bf4-base64id-0-1-0.lock
+425 verbose cache add [ 'ws@1.1.1', null ]
+426 verbose cache add name=undefined spec="ws@1.1.1" args=["ws@1.1.1",null]
+427 verbose parsed url { protocol: null,
+427 verbose parsed url   slashes: null,
+427 verbose parsed url   auth: null,
+427 verbose parsed url   host: null,
+427 verbose parsed url   port: null,
+427 verbose parsed url   hostname: null,
+427 verbose parsed url   hash: null,
+427 verbose parsed url   search: null,
+427 verbose parsed url   query: null,
+427 verbose parsed url   pathname: 'ws@1.1.1',
+427 verbose parsed url   path: 'ws@1.1.1',
+427 verbose parsed url   href: 'ws@1.1.1' }
+428 verbose cache add name="ws" spec="1.1.1" args=["ws","1.1.1"]
+429 verbose parsed url { protocol: null,
+429 verbose parsed url   slashes: null,
+429 verbose parsed url   auth: null,
+429 verbose parsed url   host: null,
+429 verbose parsed url   port: null,
+429 verbose parsed url   hostname: null,
+429 verbose parsed url   hash: null,
+429 verbose parsed url   search: null,
+429 verbose parsed url   query: null,
+429 verbose parsed url   pathname: '1.1.1',
+429 verbose parsed url   path: '1.1.1',
+429 verbose parsed url   href: '1.1.1' }
+430 verbose addNamed [ 'ws', '1.1.1' ]
+431 verbose addNamed [ '1.1.1', '1.1.1' ]
+432 silly lockFile 9b73463c-ws-1-1-1 ws@1.1.1
+433 verbose lock ws@1.1.1 /home/JFitton/.npm/9b73463c-ws-1-1-1.lock
+434 http 304 https://registry.npmjs.org/socket.io-parser/2.2.2
+435 silly registry.get cb [ 304,
+435 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:59 GMT',
+435 silly registry.get     via: '1.1 varnish',
+435 silly registry.get     'cache-control': 'max-age=300',
+435 silly registry.get     etag: '"BTB3I6JO1888TR24WCBEJQ3V6"',
+435 silly registry.get     age: '0',
+435 silly registry.get     connection: 'keep-alive',
+435 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+435 silly registry.get     'x-cache': 'HIT',
+435 silly registry.get     'x-cache-hits': '1',
+435 silly registry.get     'x-timer': 'S1478972399.137354,VS0,VE32',
+435 silly registry.get     vary: 'Accept' } ]
+436 verbose etag socket.io-parser/2.2.2 from cache
+437 verbose url raw accepts/1.3.3
+438 verbose url resolving [ 'https://registry.npmjs.org/', './accepts/1.3.3' ]
+439 verbose url resolved https://registry.npmjs.org/accepts/1.3.3
+440 info trying registry request attempt 1 at 12:40:02
+441 verbose etag "35VBHEHTTMLPUGNO0Y9DYA3LE"
+442 http GET https://registry.npmjs.org/accepts/1.3.3
+443 verbose url raw engine.io-parser/1.3.1
+444 verbose url resolving [ 'https://registry.npmjs.org/', './engine.io-parser/1.3.1' ]
+445 verbose url resolved https://registry.npmjs.org/engine.io-parser/1.3.1
+446 info trying registry request attempt 1 at 12:40:02
+447 verbose etag "4N62QMFFFHL6TA35LOAWIHPYO"
+448 http GET https://registry.npmjs.org/engine.io-parser/1.3.1
+449 verbose url raw base64id/0.1.0
+450 verbose url resolving [ 'https://registry.npmjs.org/', './base64id/0.1.0' ]
+451 verbose url resolved https://registry.npmjs.org/base64id/0.1.0
+452 info trying registry request attempt 1 at 12:40:02
+453 verbose etag "ZEE8IJIDFX5BG7BGOQN9YBZP"
+454 http GET https://registry.npmjs.org/base64id/0.1.0
+455 verbose url raw ws/1.1.1
+456 verbose url resolving [ 'https://registry.npmjs.org/', './ws/1.1.1' ]
+457 verbose url resolved https://registry.npmjs.org/ws/1.1.1
+458 info trying registry request attempt 1 at 12:40:02
+459 verbose etag "AVRB2L2915VYZ7TXSDNAHDTED"
+460 http GET https://registry.npmjs.org/ws/1.1.1
+461 silly lockFile e1b3ecb4-socket-io-parser-2-2-2 socket.io-parser@2.2.2
+462 silly lockFile e1b3ecb4-socket-io-parser-2-2-2 socket.io-parser@2.2.2
+463 silly resolved [ { name: 'socket.io-parser',
+463 silly resolved     version: '2.2.2',
+463 silly resolved     description: 'socket.io protocol parser',
+463 silly resolved     repository:
+463 silly resolved      { type: 'git',
+463 silly resolved        url: 'https://github.com/Automattic/socket.io-parser.git' },
+463 silly resolved     dependencies:
+463 silly resolved      { debug: '0.7.4',
+463 silly resolved        json3: '3.2.6',
+463 silly resolved        'component-emitter': '1.1.2',
+463 silly resolved        isarray: '0.0.1',
+463 silly resolved        benchmark: '1.0.0' },
+463 silly resolved     devDependencies: { mocha: '1.16.2', 'expect.js': '0.2.0', zuul: '1.6.3' },
+463 silly resolved     scripts: { test: 'make test' },
+463 silly resolved     license: 'MIT',
+463 silly resolved     readme: '\n# socket.io-parser\n\n[![Build Status](https://secure.travis-ci.org/Automattic/socket.io-parser.svg)](http://travis-ci.org/Automattic/socket.io-parser)\n[![NPM version](https://badge.fury.io/js/socket.io-parser.svg)](http://badge.fury.io/js/socket.io-parser)\n\nA socket.io encoder and decoder written in JavaScript complying with version `3`\nof [socket.io-protocol](https://github.com/learnboost/socket.io-protocol).\nUsed by [socket.io](https://github.com/learnboost/socket.io) and\n[socket.io-client](https://github.com/learnboost/socket.io-client).\n\n## Parser API\n\n  socket.io-parser is the reference implementation of socket.io-protocol. Read\n  the full API here:\n  [socket.io-protocol](https://github.com/learnboost/socket.io-protocol).\n\n## Example Usage\n\n### Encoding and decoding a packet\n\n```js\nvar parser = require(\'socket.io-parser\');\nvar encoder = new parser.Encoder();\nvar packet = {\n  type: parser.EVENT,\n  data: \'test-packet\',\n  id: 13\n};\nencoder.encode(packet, function(encodedPackets) {\n  var decoder = new parser.Decoder();\n  decoder.on(\'decoded\', function(decodedPacket) {\n    // decodedPacket.type == parser.EVENT\n    // decodedPacket.data == \'test-packet\'\n    // decodedPacket.id == 13\n  });\n\n  for (var i = 0; i < encodedPackets.length; i++) {\n    decoder.add(encodedPackets[i]);\n  }\n});\n```\n\n### Encoding and decoding a packet with binary data\n\n```js\nvar parser = require(\'socket.io-parser\');\nvar encoder = new parser.Encoder();\nvar packet = {\n  type: parser.BINARY_EVENT,\n  data: {i: new Buffer(1234), j: new Blob([new ArrayBuffer(2)])}\n  id: 15\n};\nencoder.encode(packet, function(encodedPackets) {\n  var decoder = new parser.Decoder();\n  decoder.on(\'decoded\', function(decodedPacket) {\n    // decodedPacket.type == parser.BINARY_EVENTEVENT\n    // Buffer.isBuffer(decodedPacket.data.i) == true\n    // Buffer.isBuffer(decodedPacket.data.j) == true\n    // decodedPacket.id == 15\n  });\n\n  for (var i = 0; i < encodedPackets.length; i++) {\n    decoder.add(encodedPackets[i]);\n  }\n});\n```\nSee the test suite for more examples of how socket.io-parser is used.\n\n\n## License\n\nMIT\n',
+463 silly resolved     readmeFilename: 'Readme.md',
+463 silly resolved     bugs: { url: 'https://github.com/Automattic/socket.io-parser/issues' },
+463 silly resolved     _id: 'socket.io-parser@2.2.2',
+463 silly resolved     _from: 'socket.io-parser@2.2.2' } ]
+464 info install socket.io-parser@2.2.2 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter
+465 info installOne socket.io-parser@2.2.2
+466 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser unbuild
+467 verbose tar unpack /home/JFitton/.npm/socket.io-parser/2.2.2/package.tgz
+468 silly lockFile 4f26f608-er-node-modules-socket-io-parser tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser
+469 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser /home/JFitton/.npm/4f26f608-er-node-modules-socket-io-parser.lock
+470 silly lockFile afd9d2c7-cket-io-parser-2-2-2-package-tgz tar:///home/JFitton/.npm/socket.io-parser/2.2.2/package.tgz
+471 verbose lock tar:///home/JFitton/.npm/socket.io-parser/2.2.2/package.tgz /home/JFitton/.npm/afd9d2c7-cket-io-parser-2-2-2-package-tgz.lock
+472 silly gunzTarPerm modes [ '755', '644' ]
+473 http 304 https://registry.npmjs.org/isarray/0.0.1
+474 silly registry.get cb [ 304,
+474 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:59 GMT',
+474 silly registry.get     via: '1.1 varnish',
+474 silly registry.get     'cache-control': 'max-age=300',
+474 silly registry.get     etag: '"A6C9AG8H7O75257YPFF0X733X"',
+474 silly registry.get     age: '0',
+474 silly registry.get     connection: 'keep-alive',
+474 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+474 silly registry.get     'x-cache': 'HIT',
+474 silly registry.get     'x-cache-hits': '1',
+474 silly registry.get     'x-timer': 'S1478972399.092919,VS0,VE127',
+474 silly registry.get     vary: 'Accept' } ]
+475 verbose etag isarray/0.0.1 from cache
+476 silly lockFile 9efe11b1-isarray-0-0-1 isarray@0.0.1
+477 silly lockFile 9efe11b1-isarray-0-0-1 isarray@0.0.1
+478 silly resolved [ { name: 'isarray',
+478 silly resolved     description: 'Array#isArray for older browsers',
+478 silly resolved     version: '0.0.1',
+478 silly resolved     repository:
+478 silly resolved      { type: 'git',
+478 silly resolved        url: 'git://github.com/juliangruber/isarray.git' },
+478 silly resolved     homepage: 'https://github.com/juliangruber/isarray',
+478 silly resolved     main: 'index.js',
+478 silly resolved     scripts: { test: 'tap test/*.js' },
+478 silly resolved     dependencies: {},
+478 silly resolved     devDependencies: { tap: '*' },
+478 silly resolved     keywords: [ 'browser', 'isarray', 'array' ],
+478 silly resolved     author:
+478 silly resolved      { name: 'Julian Gruber',
+478 silly resolved        email: 'mail@juliangruber.com',
+478 silly resolved        url: 'http://juliangruber.com' },
+478 silly resolved     license: 'MIT',
+478 silly resolved     readme: '\n# isarray\n\n`Array#isArray` for older browsers.\n\n## Usage\n\n```js\nvar isArray = require(\'isarray\');\n\nconsole.log(isArray([])); // => true\nconsole.log(isArray({})); // => false\n```\n\n## Installation\n\nWith [npm](http://npmjs.org) do\n\n```bash\n$ npm install isarray\n```\n\nThen bundle for the browser with\n[browserify](https://github.com/substack/browserify).\n\nWith [component](http://component.io) do\n\n```bash\n$ component install juliangruber/isarray\n```\n\n## License\n\n(MIT)\n\nCopyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+478 silly resolved     readmeFilename: 'README.md',
+478 silly resolved     bugs: { url: 'https://github.com/juliangruber/isarray/issues' },
+478 silly resolved     _id: 'isarray@0.0.1',
+478 silly resolved     _from: 'isarray@0.0.1' } ]
+479 info install isarray@0.0.1 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary
+480 info installOne isarray@0.0.1
+481 http 304 https://registry.npmjs.org/json3/3.3.2
+482 silly registry.get cb [ 304,
+482 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:59 GMT',
+482 silly registry.get     via: '1.1 varnish',
+482 silly registry.get     'cache-control': 'max-age=300',
+482 silly registry.get     etag: '"6LMIT1WY303F5H098H25BXX3W"',
+482 silly registry.get     age: '0',
+482 silly registry.get     connection: 'keep-alive',
+482 silly registry.get     'x-served-by': 'cache-ord1737-ORD',
+482 silly registry.get     'x-cache': 'HIT',
+482 silly registry.get     'x-cache-hits': '1',
+482 silly registry.get     'x-timer': 'S1478972399.123698,VS0,VE126',
+482 silly registry.get     vary: 'Accept' } ]
+483 verbose etag json3/3.3.2 from cache
+484 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary/node_modules/isarray unbuild
+485 verbose tar unpack /home/JFitton/.npm/isarray/0.0.1/package.tgz
+486 silly lockFile 0b432a1c--has-binary-node-modules-isarray tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary/node_modules/isarray
+487 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/has-binary/node_modules/isarray /home/JFitton/.npm/0b432a1c--has-binary-node-modules-isarray.lock
+488 silly lockFile c8c74501-on-npm-isarray-0-0-1-package-tgz tar:///home/JFitton/.npm/isarray/0.0.1/package.tgz
+489 verbose lock tar:///home/JFitton/.npm/isarray/0.0.1/package.tgz /home/JFitton/.npm/c8c74501-on-npm-isarray-0-0-1-package-tgz.lock
+490 silly gunzTarPerm modes [ '755', '644' ]
+491 silly lockFile 270a8eaa-json3-3-3-2 json3@3.3.2
+492 silly lockFile 270a8eaa-json3-3-3-2 json3@3.3.2
+493 silly gunzTarPerm extractEntry package.json
+494 silly gunzTarPerm extractEntry README.md
+495 silly gunzTarPerm extractEntry index.js
+496 http 200 https://registry.npmjs.org/ms/0.7.1
+497 verbose bad json �     �R�n�0�C� �G��S=��^� �ȡ�B\@RF�����INE�^���ͼy+,7P�
+497 verbose bad json ���!jgѬX�j�H�"h���I�ug�N8{M�-I�:������kqz+��	v�	CK���T�虖�	g�q�����Wd�y�-�ԟ��Jx�������	�81qL��0�z	�v�p��7�M��`U�A2@���l�D�� �G��z/�j�����D�r������:U}�#�a7�<甒����1.86���G���"l򢉕��|�P/q�q1��Y�E��rP�i�C��%t��{��m����#A�਄��z��S��o7�����Xݰ���wM��^P���F�jHzg��H&��!oB��Qq��/��x�:f%�c����g�E�Fu�V�s���0�!�w��mfi�M��x`.�ۻ\�=��w2  
+498 error registry error parsing json
+499 silly registry.get cb [ 200,
+499 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+499 silly registry.get     etag: '"A6K052MSXC3M5EU8SLIU16DHF"',
+499 silly registry.get     'content-type': 'application/json',
+499 silly registry.get     'content-encoding': 'gzip',
+499 silly registry.get     'cache-control': 'max-age=300',
+499 silly registry.get     'content-length': '442',
+499 silly registry.get     'accept-ranges': 'bytes',
+499 silly registry.get     date: 'Sat, 12 Nov 2016 17:39:59 GMT',
+499 silly registry.get     via: '1.1 varnish',
+499 silly registry.get     age: '217',
+499 silly registry.get     connection: 'keep-alive',
+499 silly registry.get     'x-served-by': 'cache-ord1726-ORD',
+499 silly registry.get     'x-cache': 'HIT',
+499 silly registry.get     'x-cache-hits': '1',
+499 silly registry.get     'x-timer': 'S1478972399.263028,VS0,VE0',
+499 silly registry.get     vary: 'Accept' } ]
+500 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+501 silly lockFile 3dba240c-ms-0-7-1 ms@0.7.1
+502 verbose about to build /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug
+503 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/debug unbuild
+504 info preuninstall debug@2.2.0
+505 info uninstall debug@2.2.0
+506 verbose false,/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules,/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules unbuild debug@2.2.0
+507 info postuninstall debug@2.2.0
+508 silly gunzTarPerm extractEntry build/build.js
+509 silly gunzTarPerm extractEntry component.json
+510 http 304 https://registry.npmjs.org/component-emitter/1.1.2
+511 silly registry.get cb [ 304,
+511 silly registry.get   { date: 'Sat, 12 Nov 2016 17:39:59 GMT',
+511 silly registry.get     via: '1.1 varnish',
+511 silly registry.get     'cache-control': 'max-age=300',
+511 silly registry.get     etag: '"8EWHS01W2KW8LPTXBF84OU8MW"',
+511 silly registry.get     age: '0',
+511 silly registry.get     connection: 'keep-alive',
+511 silly registry.get     'x-served-by': 'cache-ord1742-ORD',
+511 silly registry.get     'x-cache': 'HIT',
+511 silly registry.get     'x-cache-hits': '1',
+511 silly registry.get     'x-timer': 'S1478972399.158069,VS0,VE129',
+511 silly registry.get     vary: 'Accept' } ]
+512 verbose etag component-emitter/1.1.2 from cache
+513 verbose about to build /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io
+514 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io unbuild
+515 info preuninstall socket.io@1.5.1
+516 info uninstall socket.io@1.5.1
+517 verbose true,/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules,/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules unbuild socket.io@1.5.1
+518 info postuninstall socket.io@1.5.1
+519 silly gunzTarPerm extractEntry package.json
+520 silly gunzTarPerm extractEntry .npmignore
+521 silly gunzTarPerm extractEntry binary.js
+522 silly lockFile 7f1a440e-component-emitter-1-1-2 component-emitter@1.1.2
+523 silly lockFile 7f1a440e-component-emitter-1-1-2 component-emitter@1.1.2
+524 silly resolved [ { name: 'isarray',
+524 silly resolved     description: 'Array#isArray for older browsers',
+524 silly resolved     version: '0.0.1',
+524 silly resolved     repository:
+524 silly resolved      { type: 'git',
+524 silly resolved        url: 'git://github.com/juliangruber/isarray.git' },
+524 silly resolved     homepage: 'https://github.com/juliangruber/isarray',
+524 silly resolved     main: 'index.js',
+524 silly resolved     scripts: { test: 'tap test/*.js' },
+524 silly resolved     dependencies: {},
+524 silly resolved     devDependencies: { tap: '*' },
+524 silly resolved     keywords: [ 'browser', 'isarray', 'array' ],
+524 silly resolved     author:
+524 silly resolved      { name: 'Julian Gruber',
+524 silly resolved        email: 'mail@juliangruber.com',
+524 silly resolved        url: 'http://juliangruber.com' },
+524 silly resolved     license: 'MIT',
+524 silly resolved     readme: '\n# isarray\n\n`Array#isArray` for older browsers.\n\n## Usage\n\n```js\nvar isArray = require(\'isarray\');\n\nconsole.log(isArray([])); // => true\nconsole.log(isArray({})); // => false\n```\n\n## Installation\n\nWith [npm](http://npmjs.org) do\n\n```bash\n$ npm install isarray\n```\n\nThen bundle for the browser with\n[browserify](https://github.com/substack/browserify).\n\nWith [component](http://component.io) do\n\n```bash\n$ component install juliangruber/isarray\n```\n\n## License\n\n(MIT)\n\nCopyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the "Software"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n',
+524 silly resolved     readmeFilename: 'README.md',
+524 silly resolved     bugs: { url: 'https://github.com/juliangruber/isarray/issues' },
+524 silly resolved     _id: 'isarray@0.0.1',
+524 silly resolved     _from: 'isarray@0.0.1' },
+524 silly resolved   { name: 'json3',
+524 silly resolved     version: '3.3.2',
+524 silly resolved     description: 'A modern JSON implementation compatible with nearly all JavaScript platforms.',
+524 silly resolved     homepage: 'http://bestiejs.github.io/json3',
+524 silly resolved     main: './lib/json3',
+524 silly resolved     keywords: [ 'json', 'spec', 'ecma', 'es5', 'lexer', 'parser', 'stringify' ],
+524 silly resolved     licenses: [ [Object] ],
+524 silly resolved     author:
+524 silly resolved      { name: 'Kit Cambridge',
+524 silly resolved        email: 'github@kitcambridge.be',
+524 silly resolved        url: 'http://kitcambridge.be/' },
+524 silly resolved     maintainers: [ [Object], [Object] ],
+524 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+524 silly resolved     bugs: { url: 'https://github.com/bestiejs/json3/issues' },
+524 silly resolved     scripts: { test: 'node test/test_*.js' },
+524 silly resolved     repository: { type: 'git', url: 'git://github.com/bestiejs/json3.git' },
+524 silly resolved     files: [ 'README.md', 'LICENSE', 'lib/json3.js', 'lib/json3.min.js' ],
+524 silly resolved     jam: { main: './lib/json3.js', includes: [Object] },
+524 silly resolved     volo: { type: 'directory', ignore: [Object] },
+524 silly resolved     readme: '# JSON 3 #\n\n![JSON 3 Logo](http://bestiejs.github.io/json3/page/logo.png)\n\n[![Build Status](https://secure.travis-ci.org/bestiejs/json3.png?branch=gh-pages)](http://travis-ci.org/bestiejs/json3)\n\n**JSON 3** is a modern JSON implementation compatible with a variety of JavaScript platforms, including Internet Explorer 6, Opera 7, Safari 2, and Netscape 6. The current version is **3.3.2**.\n\n- [Development Version](http://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.js) *(43 KB; uncompressed with comments)*\n- [Production Version](http://cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js) *(3.5 KB; compressed and `gzip`-ped)*\n\nSpecial thanks to [cdnjs](http://cdnjs.com/libraries/json3/) and [jsDelivr](http://www.jsdelivr.com/#!json3) for hosting CDN copies of JSON 3.\n\n[JSON](http://json.org/) is a language-independent data interchange format based on a loose subset of the JavaScript grammar. Originally popularized by [Douglas Crockford](http://www.crockford.com/), the format was standardized in the [fifth edition](http://es5.github.com/) of the ECMAScript specification. The 5.1 edition, ratified in June 2011, incorporates several modifications to the grammar pertaining to the serialization of dates.\n\nJSON 3 exposes two functions: `stringify()` for [serializing](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/JSON/stringify) a JavaScript value to JSON, and `parse()` for [producing](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/JSON/parse) a JavaScript value from a JSON source string. It is a **drop-in replacement** for [JSON 2](http://json.org/js). The functions behave exactly as described in the ECMAScript spec, **except** for the date serialization discrepancy noted below.\n\nThe JSON 3 parser does **not** use `eval` or regular expressions. This provides security and performance benefits in obsolete and mobile environments, where the margin is particularly significant. The complete [benchmark suite](http://jsperf.com/json3) is available on [jsPerf](http://jsperf.com/).\n\nThe project is [hosted on GitHub](http://git.io/json3), along with the [unit tests](http://bestiejs.github.io/json3/test/test_browser.html). It is part of the [BestieJS](https://github.com/bestiejs) family, a collection of best-in-class JavaScript libraries that promote cross-platform support, specification precedents, unit testing, and plenty of documentation.\n\n# Changes from JSON 2 #\n\nJSON 3...\n\n* Correctly serializes primitive wrapper objects.\n* Throws a `TypeError` when serializing cyclic structures (JSON 2 recurses until the call stack overflows).\n* Utilizes **feature tests** to detect broken or incomplete *native* JSON implementations (JSON 2 only checks for the presence of the native functions). The tests are only executed once at runtime, so there is no additional performance cost when parsing or serializing values.\n\n**As of v3.2.3**, JSON 3 is compatible with [Prototype](http://prototypejs.org) 1.6.1 and older.\n\nIn contrast to JSON 2, JSON 3 **does not**...\n\n* Add `toJSON()` methods to the `Boolean`, `Number`, and `String` prototypes. These are not part of any standard, and are made redundant by the design of the `stringify()` implementation.\n* Add `toJSON()` or `toISOString()` methods to `Date.prototype`. See the note about date serialization below.\n\n## Date Serialization\n\n**JSON 3 deviates from the specification in one important way**: it does not define `Date#toISOString()` or `Date#toJSON()`. This preserves CommonJS compatibility and avoids polluting native prototypes. Instead, date serialization is performed internally by the `stringify()` implementation: if a date object does not define a custom `toJSON()` method, it is serialized as a [simplified ISO 8601 date-time string](http://es5.github.com/#x15.9.1.15).\n\n**Several native `Date#toJSON()` implementations produce date time strings that do *not* conform to the grammar outlined in the spec**. For instance, all versions of Safari 4, as well as JSON 2, fail to serialize extended years correctly. Furthermore, JSON 2 and older implementations omit the milliseconds from the date-time string (optional in ES 5, but required in 5.1). Finally, in all versions of Safari 4 and 5, serializing an invalid date will produce the string `"Invalid Date"`, rather than `null`. Because these environments exhibit other serialization bugs, however, JSON 3 will override the native `stringify()` implementation.\n\nPortions of the date serialization code are adapted from the [`date-shim`](https://github.com/Yaffle/date-shim) project.\n\n# Usage #\n\n## Web Browsers\n\n    <script src="//cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>\n    <script>\n      JSON.stringify({"Hello": 123});\n      // => \'{"Hello":123}\'\n      JSON.parse("[[1, 2, 3], 1, 2, 3, 4]", function (key, value) {\n        if (typeof value == "number") {\n          value = value % 2 ? "Odd" : "Even";\n        }\n        return value;\n      });\n      // => [["Odd", "Even", "Odd"], "Odd", "Even", "Odd", "Even"]\n    </script>\n\n**When used in a web browser**, JSON 3 exposes an additional `JSON3` object containing the `noConflict()` and `runInContext()` functions, as well as aliases to the `stringify()` and `parse()` functions.\n\n### `noConflict` and `runInContext`\n\n* `JSON3.noConflict()` restores the original value of the global `JSON` object and returns a reference to the `JSON3` object.\n* `JSON3.runInContext([context, exports])` initializes JSON 3 using the given `context` object (e.g., `window`, `global`, etc.), or the global object if omitted. If an `exports` object is specified, the `stringify()`, `parse()`, and `runInContext()` functions will be attached to it instead of a new object.\n\n### Asynchronous Module Loaders\n\nJSON 3 is defined as an [anonymous module](https://github.com/amdjs/amdjs-api/wiki/AMD#define-function-) for compatibility with [RequireJS](http://requirejs.org/), [`curl.js`](https://github.com/cujojs/curl), and other asynchronous module loaders.\n\n    <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.js"></script>\n    <script>\n      require({\n        "paths": {\n          "json3": "./path/to/json3"\n        }\n      }, ["json3"], function (JSON) {\n        JSON.parse("[1, 2, 3]");\n        // => [1, 2, 3]\n      });\n    </script>\n\nTo avoid issues with third-party scripts, **JSON 3 is exported to the global scope even when used with a module loader**. If this behavior is undesired, `JSON3.noConflict()` can be used to restore the global `JSON` object to its original value.\n\n## CommonJS Environments\n\n    var JSON3 = require("./path/to/json3");\n    JSON3.parse("[1, 2, 3]");\n    // => [1, 2, 3]\n\n## JavaScript Engines\n\n    load("path/to/json3.js");\n    JSON.stringify({"Hello": 123, "Good-bye": 456}, ["Hello"], "\\t");\n    // => \'{\\n\\t"Hello": 123\\n}\'\n\n# Compatibility #\n\nJSON 3 has been **tested** with the following web browsers, CommonJS environments, and JavaScript engines.\n\n## Web Browsers\n\n- Windows [Internet Explorer](http://www.microsoft.com/windows/internet-explorer), version 6.0 and higher\n- Mozilla [Firefox](http://www.mozilla.com/firefox), version 1.0 and higher\n- Apple [Safari](http://www.apple.com/safari), version 2.0 and higher\n- [Opera](http://www.opera.com) 7.02 and higher\n- [Mozilla](http://sillydog.org/narchive/gecko.php) 1.0, [Netscape](http://sillydog.org/narchive/) 6.2.3, and [SeaMonkey](http://www.seamonkey-project.org/) 1.0 and higher\n\n## CommonJS Environments\n\n- [Node](http://nodejs.org/) 0.2.6 and higher\n- [RingoJS](http://ringojs.org/) 0.4 and higher\n- [Narwhal](http://narwhaljs.org/) 0.3.2 and higher\n\n## JavaScript Engines\n\n- Mozilla [Rhino](http://www.mozilla.org/rhino) 1.5R5 and higher\n- WebKit [JSC](https://trac.webkit.org/wiki/JSC)\n- Google [V8](http://code.google.com/p/v8)\n\n## Known Incompatibilities\n\n* Attempting to serialize the `arguments` object may produce inconsistent results across environments due to specification version differences. As a workaround, please convert the `arguments` object to an array first: `JSON.stringify([].slice.call(arguments, 0))`.\n\n## Required Native Methods\n\nJSON 3 assumes that the following methods exist and function as described in the ECMAScript specification:\n\n- The `Number`, `String`, `Array`, `Object`, `Date`, `SyntaxError`, and `TypeError` constructors.\n- `String.fromCharCode`\n- `Object#toString`\n- `Function#call`\n- `Math.floor`\n- `Number#toString`\n- `Date#valueOf`\n- `String.prototype`: `indexOf`, `charCodeAt`, `charAt`, `slice`.\n- `Array.prototype`: `push`, `pop`, `join`.\n\n# Contribute #\n\nCheck out a working copy of the JSON 3 source code with [Git](http://git-scm.com/):\n\n    $ git clone git://github.com/bestiejs/json3.git\n    $ cd json3\n\nIf you\'d like to contribute a feature or bug fix, you can [fork](http://help.github.com/fork-a-repo/) JSON 3, commit your changes, and [send a pull request](http://help.github.com/send-pull-requests/). Please make sure to update the unit tests in the `test` directory as well.\n\nAlternatively, you can use the [GitHub issue tracker](https://github.com/bestiejs/json3/issues) to submit bug reports, feature requests, and questions, or send tweets to [@kitcambridge](http://twitter.com/kitcambridge).\n\nJSON 3 is released under the [MIT License](http://kit.mit-license.org/).\n',
+524 silly resolved     readmeFilename: 'README.md',
+524 silly resolved     _id: 'json3@3.3.2',
+524 silly resolved     _from: 'json3@3.3.2' },
+524 silly resolved   { name: 'component-emitter',
+524 silly resolved     description: 'Event emitter',
+524 silly resolved     version: '1.1.2',
+524 silly resolved     devDependencies: { mocha: '*', should: '*' },
+524 silly resolved     component: { scripts: [Object] },
+524 silly resolved     main: 'index.js',
+524 silly resolved     repository: { type: 'git', url: 'https://github.com/component/emitter.git' },
+524 silly resolved     scripts: { test: 'make test' },
+524 silly resolved     readme: '# Emitter [![Build Status](https://travis-ci.org/component/emitter.png)](https://travis-ci.org/component/emitter)\n\n  Event emitter component.\n\n## Installation\n\n```\n$ component install component/emitter\n```\n\n## API\n\n### Emitter(obj)\n\n  The `Emitter` may also be used as a mixin. For example\n  a "plain" object may become an emitter, or you may\n  extend an existing prototype.\n\n  As an `Emitter` instance:\n\n```js\nvar Emitter = require(\'emitter\');\nvar emitter = new Emitter;\nemitter.emit(\'something\');\n```\n\n  As a mixin:\n\n```js\nvar Emitter = require(\'emitter\');\nvar user = { name: \'tobi\' };\nEmitter(user);\n\nuser.emit(\'im a user\');\n```\n\n  As a prototype mixin:\n\n```js\nvar Emitter = require(\'emitter\');\nEmitter(User.prototype);\n```\n\n### Emitter#on(event, fn)\n\n  Register an `event` handler `fn`.\n\n### Emitter#once(event, fn)\n\n  Register a single-shot `event` handler `fn`,\n  removed immediately after it is invoked the\n  first time.\n\n### Emitter#off(event, fn)\n\n  * Pass `event` and `fn` to remove a listener.\n  * Pass `event` to remove all listeners on that event.\n  * Pass nothing to remove all listeners on all events.\n\n### Emitter#emit(event, ...)\n\n  Emit an `event` with variable option args.\n\n### Emitter#listeners(event)\n\n  Return an array of callbacks, or an empty array.\n\n### Emitter#hasListeners(event)\n\n  Check if this emitter has `event` handlers.\n\n## License\n\nMIT\n',
+524 silly resolved     readmeFilename: 'Readme.md',
+524 silly resolved     bugs: { url: 'https://github.com/component/emitter/issues' },
+524 silly resolved     _id: 'component-emitter@1.1.2',
+524 silly resolved     _from: 'component-emitter@1.1.2' } ]
+525 info install isarray@0.0.1 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser
+526 info install json3@3.3.2 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser
+527 info install component-emitter@1.1.2 into /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser
+528 info installOne isarray@0.0.1
+529 info installOne json3@3.3.2
+530 info installOne component-emitter@1.1.2
+531 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/isarray unbuild
+532 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3 unbuild
+533 info /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter unbuild
+534 silly lockFile 597fec1a-io-node-modules-socket-io-client tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client
+535 silly lockFile 597fec1a-io-node-modules-socket-io-client tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client
+536 silly lockFile e5dd4709-cket-io-client-1-5-1-package-tgz tar:///home/JFitton/.npm/socket.io-client/1.5.1/package.tgz
+537 silly lockFile e5dd4709-cket-io-client-1-5-1-package-tgz tar:///home/JFitton/.npm/socket.io-client/1.5.1/package.tgz
+538 verbose tar unpack /home/JFitton/.npm/isarray/0.0.1/package.tgz
+539 silly lockFile e9db4d32-t-io-parser-node-modules-isarray tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/isarray
+540 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/isarray /home/JFitton/.npm/e9db4d32-t-io-parser-node-modules-isarray.lock
+541 silly lockFile c8c74501-on-npm-isarray-0-0-1-package-tgz tar:///home/JFitton/.npm/isarray/0.0.1/package.tgz
+542 verbose lock tar:///home/JFitton/.npm/isarray/0.0.1/package.tgz /home/JFitton/.npm/c8c74501-on-npm-isarray-0-0-1-package-tgz.lock
+543 verbose tar unpack /home/JFitton/.npm/component-emitter/1.1.2/package.tgz
+544 silly lockFile f418cc5b-r-node-modules-component-emitter tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter
+545 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter /home/JFitton/.npm/f418cc5b-r-node-modules-component-emitter.lock
+546 silly lockFile d95523ac-ponent-emitter-1-1-2-package-tgz tar:///home/JFitton/.npm/component-emitter/1.1.2/package.tgz
+547 verbose lock tar:///home/JFitton/.npm/component-emitter/1.1.2/package.tgz /home/JFitton/.npm/d95523ac-ponent-emitter-1-1-2-package-tgz.lock
+548 verbose tar unpack /home/JFitton/.npm/json3/3.3.2/package.tgz
+549 silly lockFile e7e4b8b4-ket-io-parser-node-modules-json3 tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3
+550 verbose lock tar:///mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-parser/node_modules/json3 /home/JFitton/.npm/e7e4b8b4-ket-io-parser-node-modules-json3.lock
+551 silly lockFile 089efe9b-tton-npm-json3-3-3-2-package-tgz tar:///home/JFitton/.npm/json3/3.3.2/package.tgz
+552 verbose lock tar:///home/JFitton/.npm/json3/3.3.2/package.tgz /home/JFitton/.npm/089efe9b-tton-npm-json3-3-3-2-package-tgz.lock
+553 info preinstall socket.io-client@1.5.1
+554 error error rolling back Error: ENOTEMPTY, rmdir '/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client'
+554 error error rolling back  socket.io@1.5.1 { [Error: ENOTEMPTY, rmdir '/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client']
+554 error error rolling back   errno: 53,
+554 error error rolling back   code: 'ENOTEMPTY',
+554 error error rolling back   path: '/mnt/c/Users/Jesse/Documents/GitHub/NutshellNews/node_modules/socket.io/node_modules/socket.io-client' }
+555 error SyntaxError: Unexpected token 
+555 error �     �R�n�0�C� �G��S=��^� �ȡ�B\@RF�����INE�^���ͼy+,7P�
+555 error ���!jgѬX�j�H�"h���I�ug�N8{M�-I�:������kqz+��	v�	CK���T�虖�	g�q�����Wd�y�-�ԟ��Jx�������	�81qL��0�z	�v�p��7�M��`U�A2@���l�D�� �G��z/�j�����D�r������:U}�#�a7�<甒����1.86���G���"l򢉕��|�P/q�q1��Y�E��rP�i�C��%t��{��m����#A�਄��z��S��o7�����Xݰ���wM��^P���F�jHzg��H&��!oB��Qq��/��x�:f%�c����g�E�Fu�V�s���0�!�w��mfi�M��x`.�ۻ\�=��w2  
+555 error     at Object.parse (native)
+555 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:238:23)
+555 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+555 error     at Request.EventEmitter.emit (events.js:98:17)
+555 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+555 error     at Request.EventEmitter.emit (events.js:117:20)
+555 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+555 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+555 error     at _stream_readable.js:920:16
+555 error     at process._tickCallback (node.js:415:13)
+556 error If you need help, you may report this log at:
+556 error     <http://github.com/isaacs/npm/issues>
+556 error or email it to:
+556 error     <npm-@googlegroups.com>
+557 error System Linux 3.4.0+
+558 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "socket.io"
+559 error cwd /mnt/c/Users/Jesse/Documents/GitHub/NutshellNews
+560 error node -v v0.10.25
+561 error npm -v 1.3.10
+562 error type unexpected_token
+563 verbose exit [ 1, true ]
