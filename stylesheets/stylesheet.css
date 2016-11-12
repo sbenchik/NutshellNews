@@ -385,7 +385,10 @@ Small Device Styles
 
   .inner {
     min-width: 320px;
-    max-width: 480px;
+  }
+
+  .topBar {
+    text-align: center;
   }
 
   #project_title {
