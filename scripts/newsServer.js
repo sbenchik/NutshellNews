@@ -18,16 +18,50 @@ $(document).ready(function() {
             url = data['articles'][i]['url'];
             urlToImage = data['articles'][i]['urlToImage'];
             
+            
+            
+            /**
+            $("#first").add(<td>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <center><img id="newsImage" src=urlToImage width="600%"></center>
+                                    </div>
+                                    <div style="float: left;">
+                                        <div id="title">title</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="panel-footer">
+                                    <a href=url id="description" class="pull-left" >View Details</a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                </td>);
+               **/             
+            $("#title").text(title);
+            $("#newsImage").attr("src", urlToImage);
+            $("#description").text(description);
+            $("#description").attr("href", url);
+
+            
+            
+            
+            
+            
 
         }
         
         
-            $("#title").text(title);
-            $("#title").attr("herf", url);
-            $("#newsImage").attr("src", urlToImage);
-            $("#description").text(description);
-            console.log(urlToImage);
-
+        
 
 
     });
