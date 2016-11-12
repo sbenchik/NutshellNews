@@ -13,11 +13,5 @@ $.get("https://newsapi.org/v1/articles?source=" + source + "&sortBy=" + sortBy +
 
 $.get("http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&units=imperial&APPID=a29fff7fa1bce3c0229d7f6f97530e87", function(data, status){
     console.log(data);  //just for visualization
-    console.log(data[''])
+    console.log(data['main']['temp']);
 });
-
-/**
-var jsontext   = '{"name":"x","age":"11"}';
-var getContact = JSON.parse(jsontext);
-console.log(getContact.name);
-**/
