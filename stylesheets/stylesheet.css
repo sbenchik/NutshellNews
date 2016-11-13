@@ -72,8 +72,8 @@ ol, ul {
 }
 .image {
   object-fit: cover;
-  width:250px;
-  height:250px;
+  width:17em;
+  height:17em;
     align-content: center;
 }
 
