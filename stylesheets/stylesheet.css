@@ -9,6 +9,16 @@ by Jason Costello, @jsncostello
 MeyerWeb Reset
 *******************************************************************************/
 
+.titleCutOff {
+  height: 50px;
+  overflow: hidden;
+}
+
+.descriptionCutOff {
+  height: 100px;
+  overflow: hidden;
+}
+
 .white {
   color: white;
 }
