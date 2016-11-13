@@ -12,12 +12,13 @@ $(document).ready(function() {
 
         for (var i = 0; i < data['articles'].length; i++) {
             author = data['articles'][i]['author'];
-            description = data['articles'][i]['description'].substring(0, 100);
+            description = data['articles'][i]['description'].substring(0, 100) + "...";
             publishedAt = data['articles'][i]['publishedAt'];
             title = data['articles'][i]['title'];
             url = data['articles'][i]['url'];
             urlToImage = data['articles'][i]['urlToImage'];
-                        
+            
+                                    
             
             $("#title" + i).text(title);
             $("#newsImage" + i).attr("src", urlToImage);

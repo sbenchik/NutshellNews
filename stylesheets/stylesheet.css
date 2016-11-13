@@ -9,11 +9,6 @@ by Jason Costello, @jsncostello
 MeyerWeb Reset
 *******************************************************************************/
 
-.table {
-  display: table; 
-  margin: 0 auto;
-}
-
 .white {
   color: white;
 }
@@ -68,7 +63,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+.table {
+  display: table; 
+  margin: 0 auto;
+}
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
