@@ -50,6 +50,8 @@ $(document).ready(function() {
         var windDeg = data['wind']['deg'];
         var windSpeed = data['wind']['speed'];
         var description = data['weather']['0']['description'];
+        
+        $("#temp").text(temp + "°F");
 
     });
     
