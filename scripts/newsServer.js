@@ -47,7 +47,6 @@ $(document).ready(function() {
 
     });
     
-    
     $("#theNextWeb").click(function() {
         //reseting the button colors
         $("#theNextWeb").css('color', '#49BF59');
@@ -84,6 +83,7 @@ $(document).ready(function() {
         });
     });
     
+    
     $("#BBC").click(function() {
         //reseting the button colors
         $("#theNextWeb").css('color', 'white');
@@ -95,6 +95,7 @@ $(document).ready(function() {
         $("#techCrunch").css('color', 'white');
         
         source = "bbc-news";
+        sortBy = "top";
         $.get("https://newsapi.org/v1/articles?source=" + source + "&sortBy=" + sortBy +"&apiKey=eba604d3c61e4c06a49c9c2d727b7659", function(data, status){
             //console.log(data);  //just for visualization
 
@@ -118,7 +119,10 @@ $(document).ready(function() {
 
 
         });
+
+        sortBy = "latest";
     });
+
     
     $("#CNN").click(function() {
         //reseting the button colors
@@ -131,6 +135,7 @@ $(document).ready(function() {
         $("#techCrunch").css('color', 'white');;
         
         source = "cnn";
+        sortBy = "top";
         $.get("https://newsapi.org/v1/articles?source=" + source + "&sortBy=" + sortBy +"&apiKey=eba604d3c61e4c06a49c9c2d727b7659", function(data, status){
             //console.log(data);  //just for visualization
 
@@ -154,6 +159,8 @@ $(document).ready(function() {
 
 
         });
+
+        sortBy = "latest";
     });
     
     $("#WIRED").click(function() {
