@@ -189,7 +189,8 @@ $(document).ready(function() {
         $("#IGN").css('color', 'white');
         $("#techCrunch").css('color', 'white');
         
-        source = "wired-de";
+        source = "espn";
+        sortBy = "popular";
         $.get("https://newsapi.org/v1/articles?source=" + source + "&sortBy=" + sortBy +"&apiKey=eba604d3c61e4c06a49c9c2d727b7659", function(data, status){
             //console.log(data);  //just for visualization
 
@@ -217,6 +218,8 @@ $(document).ready(function() {
 
 
         });
+
+        sortBy = "latest";
     });
     
     $("#Time").click(function() {

@@ -28,7 +28,7 @@ MeyerWeb Reset
 }
 
 .navbar.navbar-inverse.navbar-fixed-top li > a:hover {
-color: #49BF59;
+  color: white;
 }
 
 html, body, div, span, applet, object, iframe,
