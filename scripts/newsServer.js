@@ -12,45 +12,17 @@ $(document).ready(function() {
 
         for (var i = 0; i < data['articles'].length; i++) {
             author = data['articles'][i]['author'];
-            description = data['articles'][i]['description'];
+            description = data['articles'][i]['description'].substring(0, 100);
             publishedAt = data['articles'][i]['publishedAt'];
             title = data['articles'][i]['title'];
             url = data['articles'][i]['url'];
             urlToImage = data['articles'][i]['urlToImage'];
+                        
             
-            
-            
-            /**
-            $("#first").add(<td>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <div class="row">
-                                    <div class="col-xs-3">
-                                        <center><img id="newsImage" src=urlToImage width="600%"></center>
-                                    </div>
-                                    <div style="float: left;">
-                                        <div id="title">title</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                                <div class="panel-footer">
-                                    <a href=url id="description" class="pull-left" >View Details</a>
-                                    <div class="clearfix"></div>
-                                </div>
-                            
-
-                        </div>
-                    </div>
-                </div>
-                </td>);
-               **/             
-            $("#title").text(title);
-            $("#newsImage").attr("src", urlToImage);
-            $("#description").text(description);
-            $("#description").attr("href", url);
+            $("#title" + i).text(title);
+            $("#newsImage" + i).attr("src", urlToImage);
+            $("#description" + i).text(description);
+            $("#description" + i).attr("href", url);
 
             
             
