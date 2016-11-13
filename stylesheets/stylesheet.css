@@ -10,12 +10,12 @@ MeyerWeb Reset
 *******************************************************************************/
 
 .titleCutOff {
-  height: 50px;
+  height: 3em;
   overflow: hidden;
 }
 
 .descriptionCutOff {
-  height: 100px;
+  height: 5em;
   overflow: hidden;
 }
 
