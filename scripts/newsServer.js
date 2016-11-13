@@ -1,11 +1,9 @@
 $(document).ready(function() {
 
-    
-
     var source = "techcrunch";  //"the-next-web" is default
     var sortBy = "latest";  //top, latest, popular
-    var cityName = "San Francisco";
-
+    var cityName = "Nashville";
+    
 
     $.get("https://newsapi.org/v1/articles?source=" + source + "&sortBy=" + sortBy +"&apiKey=eba604d3c61e4c06a49c9c2d727b7659", function(data, status){
         //console.log(data);  //just for visualization
@@ -18,9 +16,7 @@ $(document).ready(function() {
             publishedAt = data['articles'][i]['publishedAt'];
             title = data['articles'][i]['title'];
             url = data['articles'][i]['url'];
-            urlToImage = data['articles'][i]['urlToImage'];
-            
-            
+            urlToImage = data['articles'][i]['urlToImage'];            
                                     
             
             $("#title" + i).text(title);
@@ -36,9 +32,6 @@ $(document).ready(function() {
 
         }
         
-        
-        
-
 
     });
 
@@ -54,6 +47,7 @@ $(document).ready(function() {
         var windDeg = data['wind']['deg'];
         var windSpeed = data['wind']['speed'];
         var description = data['weather']['0']['description'];
+        
         
         $("#temp").text(temp + "°F");
 
