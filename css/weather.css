@@ -97,6 +97,11 @@ font-size: 3vmin;
 .temp {
  font-size: 15vmin;
 }
+
+#currently{
+    background-color: #49BF59;
+}
+
 #currentlyHeading {
 font-size: 5vmin;
 }
