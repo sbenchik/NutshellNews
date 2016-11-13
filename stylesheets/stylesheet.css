@@ -25,20 +25,10 @@ MeyerWeb Reset
     left: 95.5%;
     color: white;
     top: 18px;
-    
-    
 }
 
 .navbar.navbar-inverse.navbar-fixed-top li > a:hover {
-color: #49BF59;
-}
-
-.navbar.navbar-inverse.navbar-fixed-top li > a:focus{
-color: #49BF59;
-}
-
-.navbar.navbar-inverse.navbar-fixed-top li > a:visited{
-color: #49BF59;
+  color: white;
 }
 
 html, body, div, span, applet, object, iframe,
