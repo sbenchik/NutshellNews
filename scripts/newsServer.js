@@ -18,8 +18,12 @@ $(document).ready(function() {
             url = data['articles'][i]['url'];
             urlToImage = data['articles'][i]['urlToImage'];            
 
-
-            $("#title" + i).text(author + " - " + title);
+            if (author == null || author.lenth == 0 ) {
+                $("#title" + i).text(title);    
+            } else {
+                $("#title" + i).text(author + " - " + title);
+            }
+            
             $("#newsImage" + i).attr("src", urlToImage);
             $("#description" + i).text(description);
             $("#description" + i).attr("href", url);
@@ -72,7 +76,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
@@ -110,7 +118,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
@@ -150,7 +162,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
@@ -188,7 +204,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
@@ -224,7 +244,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
@@ -260,7 +284,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
@@ -296,7 +324,11 @@ $(document).ready(function() {
                 urlToImage = data['articles'][i]['urlToImage'];            
 
 
-                $("#title" + i).text(author + " - " + title);
+                if (author == null || author.lenth == 0 ) {
+                    $("#title" + i).text(title);    
+                } else {
+                    $("#title" + i).text(author + " - " + title);
+                }
                 $("#newsImage" + i).attr("src", urlToImage);
                 $("#description" + i).text(description);
                 $("#description" + i).attr("href", url);
