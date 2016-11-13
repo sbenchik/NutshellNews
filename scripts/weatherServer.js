@@ -16,16 +16,35 @@ $(document).ready(function() {
                 description = data['list'][i]['weather']['0']['description'];
                 windDeg = data['list'][i]['wind']['deg'];
                 windSpeed = data['list'][i]['wind']['speed'];
-
+                
+                console.log(description);
+                
+                if (i == 0) {
+                    $("#currentTemp").text("Current Temp: " + temp + "°F High Temp: " + temp_max);
+                    
+                } else if (i == 1) {
+                    if (description.startsWith("cl") {
+                        console.log("hi");
+                    }
+                    
+                    $("#highTemp1").text(temp_max + "°F");
+                    $("#description").text(description);
+                } else if (i == 8) {
+                    $("#highTemp2").text(temp_max + "°F");
+                    $("#description2").text(description);
+                } else if (i == 16) {
+                    $("#highTemp3").text(temp_max + "°F");
+                    $("#description3").text(description);
+                } else if (i == 24) {
+                    $("#highTemp4").text(temp_max + "°F");                
+                    $("#description4").text(description);
+                } else if (i == 32) {
+                    $("#highTemp5").text(temp_max + "°F");
+                    $("#description5").text(description);
+                }
             }
-
-            console.log(name);
-            console.log(dateTime);
-            console.log(temp);
-            console.log(temp_max);
-            console.log(temp_min);
-            console.log(description);
-            console.log(windDeg);
-            console.log(windSpeed);
+            
     });
+    
+    
 });
