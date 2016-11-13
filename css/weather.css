@@ -30,12 +30,16 @@ right: 0px;
 }
 
 #display {
+border: 0 !important;
+border-collapse: collapse;
+border-color: white !important;
 width: 100%;
 height: 100%;
 text-align: center;
 background: #fff;
-color: #000;
+color: black;
 }
+
 
 .forecast {
 width: 20%;
