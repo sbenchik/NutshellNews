@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    
+
     var source = "techcrunch";  //"the-next-web" is default
     var sortBy = "latest";  //top, latest, popular
     var cityName = "San Francisco";
@@ -17,6 +19,7 @@ $(document).ready(function() {
             title = data['articles'][i]['title'];
             url = data['articles'][i]['url'];
             urlToImage = data['articles'][i]['urlToImage'];
+            
             
                                     
             
