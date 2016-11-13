@@ -10,12 +10,12 @@ MeyerWeb Reset
 *******************************************************************************/
 
 .titleCutOff {
-  height: 50px;
+  height: 3em;
   overflow: hidden;
 }
 
 .descriptionCutOff {
-  height: 100px;
+  height: 5em;
   overflow: hidden;
 }
 
@@ -72,8 +72,8 @@ ol, ul {
 }
 .image {
   object-fit: cover;
-  width:250px;
-  height:250px;
+  width:17em;
+  height:17em;
     align-content: center;
 }
 
