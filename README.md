@@ -4,6 +4,5 @@ gives the user top articles from a variety of sites. Things i want to accomplish
 	* Geolocation for the weather
 	* More sites
 	* Different CSS
+
 ![alt tag](https://raw.githubusercontent.com/sbenchik/NutshellNews/master/logo_new.png)
-
-
