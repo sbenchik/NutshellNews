@@ -1,6 +1,8 @@
-  		  
- This is a news aggregator that serves you prominent and popular news at our finger tips.
-  		  
- Here is our wonderful logo for our web app.
-  		  
- ![alt tag](https://raw.githubusercontent.com/NutshellNews/NutshellNews/master/icons/iconNutshell36.png)
+![alt tag](https://raw.githubusercontent.com/NutshellNews/NutshellNews/master/logo_new.png)
+
+This is my personal fork of Nutshell News, our project from VandyHacks 3. Nutshell News is a news aggregator that
+gives the user top articles from a variety of sites. Things i want to accomplish with this fork are:
+	* Article summaries
+	* Geolocation for the weather
+	* More sites
+	* Different CSS
